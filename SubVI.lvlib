@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="add datafile(SubVI).vi" Type="VI" URL="../SubVI/add datafile(SubVI).vi"/>
 	<Item Name="add delta delay(SubVI).vi" Type="VI" URL="../SubVI/add delta delay(SubVI).vi"/>
+	<Item Name="add delta initalize(SubVI).vi" Type="VI" URL="../SubVI/add delta initalize(SubVI).vi"/>
 	<Item Name="add delta range(SubVI).vi" Type="VI" URL="../SubVI/add delta range(SubVI).vi"/>
 	<Item Name="add logppms(SubVI).vi" Type="VI" URL="../SubVI/add logppms(SubVI).vi"/>
 	<Item Name="add open sr830(SubVI).vi" Type="VI" URL="../SubVI/add open sr830(SubVI).vi"/>
@@ -24,6 +25,7 @@
 	<Item Name="add wait(SubVI).vi" Type="VI" URL="../SubVI/add wait(SubVI).vi"/>
 	<Item Name="auto sensitivity(SubVI).vi" Type="VI" URL="../SubVI/auto sensitivity(SubVI).vi"/>
 	<Item Name="data load(SubVI).vi" Type="VI" URL="../SubVI/data load(SubVI).vi"/>
+	<Item Name="delta initalize read(SubVI).vi" Type="VI" URL="../SubVI/delta initalize read(SubVI).vi"/>
 	<Item Name="field setpoint(SubVI).vi" Type="VI" URL="../SubVI/field setpoint(SubVI).vi"/>
 	<Item Name="field sweep(SubVI).vi" Type="VI" URL="../SubVI/field sweep(SubVI).vi"/>
 	<Item Name="get poisition.vi" Type="VI" URL="../SubVI/get poisition.vi"/>
@@ -39,7 +41,9 @@
 	<Item Name="set current(without frequency).vi" Type="VI" URL="../SubVI/set current(without frequency).vi"/>
 	<Item Name="set gating.vi" Type="VI" URL="../SubVI/set gating.vi"/>
 	<Item Name="set poisition.vi" Type="VI" URL="../SubVI/set poisition.vi"/>
+	<Item Name="setpoint(SubVI).vi" Type="VI" URL="../SubVI/setpoint(SubVI).vi"/>
 	<Item Name="string front part.vi" Type="VI" URL="../SubVI/string front part.vi"/>
+	<Item Name="sweep(SubVI).vi" Type="VI" URL="../SubVI/sweep(SubVI).vi"/>
 	<Item Name="temp setpoint(SubVI).vi" Type="VI" URL="../SubVI/temp setpoint(SubVI).vi"/>
 	<Item Name="temp sweep(SubVI).vi" Type="VI" URL="../SubVI/temp sweep(SubVI).vi"/>
 	<Item Name="WaitFor(abort).vi" Type="VI" URL="../SubVI/WaitFor(abort).vi"/>

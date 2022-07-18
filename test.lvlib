@@ -8,6 +8,7 @@
 	<Item Name="log测试.vi" Type="VI" URL="../SubVI/log测试.vi"/>
 	<Item Name="R-T测试.vi" Type="VI" URL="../SubVI/R-T测试.vi"/>
 	<Item Name="储存测试.vi" Type="VI" URL="../test/储存测试.vi"/>
+	<Item Name="队列采集速度.vi" Type="VI" URL="../test/队列采集速度.vi"/>
 	<Item Name="队列测试.vi" Type="VI" URL="../test/队列测试.vi"/>
 	<Item Name="锁死与事件响应测试.vi" Type="VI" URL="../test/锁死与事件响应测试.vi"/>
 	<Item Name="语句解析测试.vi" Type="VI" URL="../test/语句解析测试.vi"/>

@@ -126,10 +126,10 @@
 			<Item Name="Error Query Global.vi" Type="VI" URL="../SubVI/KE7001.LLB/Error Query Global.vi"/>
 			<Item Name="Keith 7001 Error Query.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Error Query.vi"/>
 			<Item Name="Keith 7001 Open/Close Chan.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Open/Close Chan.vi"/>
-			<Item Name="add delta initalize(SubVI).vi" Type="VI" URL="../SubVI/add delta initalize(SubVI).vi"/>
 			<Item Name="config_file(SubVI).vi" Type="VI" URL="../SubVI/config_file(SubVI).vi"/>
 			<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
-			<Item Name="QDInstrument.dll" Type="Document" URL="../../measure/QDInstrument_LabView (1)/QDInstrument.dll"/>
+			<Item Name="QDInstrument.dll" Type="Document" URL="../QDInstrument_LabView (1)/QDInstrument.dll"/>
+			<Item Name="config.ctl" Type="VI" URL="../SubVI/config.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
