@@ -11,77 +11,83 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="QDInstrument" Type="Folder">
-			<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
-			<Item Name="SetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetPosition.vi"/>
-			<Item Name="GetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetPosition.vi"/>
-			<Item Name="GetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetTemperature.vi"/>
-			<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
-			<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/OpenQDInstrument.vi"/>
-			<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/QDInstrumentExceptionHandler.vi"/>
-			<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
-			<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
-			<Item Name="SetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetTemperature.vi"/>
+		<Item Name="lib" Type="Folder">
+			<Item Name="QDInstrument" Type="Folder">
+				<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
+				<Item Name="SetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetPosition.vi"/>
+				<Item Name="GetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetPosition.vi"/>
+				<Item Name="GetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetTemperature.vi"/>
+				<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
+				<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/OpenQDInstrument.vi"/>
+				<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/QDInstrumentExceptionHandler.vi"/>
+				<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
+				<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
+				<Item Name="SetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetTemperature.vi"/>
+			</Item>
+			<Item Name="Keithley 2400" Type="Folder">
+				<Item Name="Keithley 2400 Average Measure.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Average Measure.vi"/>
+				<Item Name="Keithley 2400 Close.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Close.vi"/>
+				<Item Name="Keithley 2400 Current Read.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Current Read.vi"/>
+				<Item Name="Keithley 2400 Current Set.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Current Set.vi"/>
+				<Item Name="Keithley 2400 Init.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Init.vi"/>
+				<Item Name="Keithley 2400 Output.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Output.vi"/>
+				<Item Name="Keithley 2400 Read.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Read.vi"/>
+				<Item Name="Keithley 2400 Setting Strings.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Setting Strings.vi"/>
+				<Item Name="Keithley 2400 Settings.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Settings.vi"/>
+				<Item Name="Keithley 2400 Source Measuret.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Source Measuret.vi"/>
+				<Item Name="Keithley 2400 Source Set.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Source Set.vi"/>
+				<Item Name="Keithley 2400 Test.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Test.vi"/>
+				<Item Name="Keithley 2400 Voltage Read.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Voltage Read.vi"/>
+				<Item Name="Keithley 2400 Voltage Set.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Voltage Set.vi"/>
+				<Item Name="Keithley Tree.vi" Type="VI" URL="../lib/Keithley 2400/Keithley Tree.vi"/>
+			</Item>
+			<Item Name="KE7001" Type="Folder">
+				<Item Name="Error Query Global.vi" Type="VI" URL="../SubVI/KE7001.LLB/Error Query Global.vi"/>
+				<Item Name="Keith 7001 Arm Lay 1 Config.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Arm Lay 1 Config.vi"/>
+				<Item Name="Keith 7001 Arm Lay 2 Config.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Arm Lay 2 Config.vi"/>
+				<Item Name="Keith 7001 Card Configure.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Card Configure.vi"/>
+				<Item Name="Keith 7001 Chan Restrictions.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Chan Restrictions.vi"/>
+				<Item Name="Keith 7001 Channel String.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Channel String.vi"/>
+				<Item Name="Keith 7001 Close.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Close.vi"/>
+				<Item Name="Keith 7001 Digital Out Setup.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Digital Out Setup.vi"/>
+				<Item Name="Keith 7001 Display Message.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Display Message.vi"/>
+				<Item Name="Keith 7001 Error Query.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Error Query.vi"/>
+				<Item Name="Keith 7001 Immediate/Signal.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Immediate/Signal.vi"/>
+				<Item Name="Keith 7001 Initialize.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Initialize.vi"/>
+				<Item Name="Keith 7001 Open/Close Chan.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Open/Close Chan.vi"/>
+				<Item Name="Keith 7001 Open/Close Exam.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Open/Close Exam.vi"/>
+				<Item Name="Keith 7001 Perform Scan.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Perform Scan.vi"/>
+				<Item Name="Keith 7001 Receive Message.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Receive Message.vi"/>
+				<Item Name="Keith 7001 Reset / Preset.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Reset / Preset.vi"/>
+				<Item Name="Keith 7001 Sav/Rcl Channels.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Sav/Rcl Channels.vi"/>
+				<Item Name="Keith 7001 Sav/Rcl Setup.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Sav/Rcl Setup.vi"/>
+				<Item Name="Keith 7001 Scan Example.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Scan Example.vi"/>
+				<Item Name="Keith 7001 Send Message.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Send Message.vi"/>
+				<Item Name="Keith 7001 Send Trigger.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Send Trigger.vi"/>
+				<Item Name="Keith 7001 Trig Layer Config.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Trig Layer Config.vi"/>
+				<Item Name="Read SCPI Error Queue (GPIB).vi" Type="VI" URL="../SubVI/KE7001.LLB/Read SCPI Error Queue (GPIB).vi"/>
+			</Item>
+			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
+			<Item Name="Keithley 622x.lvlib" Type="Library" URL="../lib/Keithley 622x/Keithley 622x.lvlib"/>
+			<Item Name="Stanford Research 830.lvlib" Type="Library" URL="../lib/Stanford Research 830/Stanford Research 830.lvlib"/>
+			<Item Name="Keithley 2182.lvlib" Type="Library" URL="../lib/Keithley 2182/Keithley 2182.lvlib"/>
+			<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../lib/Keithley 2400/Keithley 24XX/Keithley 24XX.lvlib"/>
 		</Item>
-		<Item Name="Keithley 2400" Type="Folder">
-			<Item Name="Keithley 2400 Average Measure.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Average Measure.vi"/>
-			<Item Name="Keithley 2400 Close.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Close.vi"/>
-			<Item Name="Keithley 2400 Current Read.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Current Read.vi"/>
-			<Item Name="Keithley 2400 Current Set.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Current Set.vi"/>
-			<Item Name="Keithley 2400 Init.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Init.vi"/>
-			<Item Name="Keithley 2400 Output.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Output.vi"/>
-			<Item Name="Keithley 2400 Read.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Read.vi"/>
-			<Item Name="Keithley 2400 Setting Strings.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Setting Strings.vi"/>
-			<Item Name="Keithley 2400 Settings.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Settings.vi"/>
-			<Item Name="Keithley 2400 Source Measuret.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Source Measuret.vi"/>
-			<Item Name="Keithley 2400 Source Set.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Source Set.vi"/>
-			<Item Name="Keithley 2400 Test.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Test.vi"/>
-			<Item Name="Keithley 2400 Voltage Read.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Voltage Read.vi"/>
-			<Item Name="Keithley 2400 Voltage Set.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Voltage Set.vi"/>
-			<Item Name="Keithley Tree.vi" Type="VI" URL="../lib/Keithley 2400/Keithley Tree.vi"/>
+		<Item Name="SubVI" Type="Folder">
+			<Item Name="SubVI.lvlib" Type="Library" URL="../SubVI.lvlib"/>
+			<Item Name="Take Seq.lvlib" Type="Library" URL="../Take Seq.lvlib"/>
+			<Item Name="Add Seq.lvlib" Type="Library" URL="../Add Seq.lvlib"/>
+			<Item Name="test.lvlib" Type="Library" URL="../test.lvlib"/>
 		</Item>
-		<Item Name="KE7001" Type="Folder">
-			<Item Name="Error Query Global.vi" Type="VI" URL="../SubVI/KE7001.LLB/Error Query Global.vi"/>
-			<Item Name="Keith 7001 Arm Lay 1 Config.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Arm Lay 1 Config.vi"/>
-			<Item Name="Keith 7001 Arm Lay 2 Config.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Arm Lay 2 Config.vi"/>
-			<Item Name="Keith 7001 Card Configure.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Card Configure.vi"/>
-			<Item Name="Keith 7001 Chan Restrictions.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Chan Restrictions.vi"/>
-			<Item Name="Keith 7001 Channel String.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Channel String.vi"/>
-			<Item Name="Keith 7001 Close.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Close.vi"/>
-			<Item Name="Keith 7001 Digital Out Setup.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Digital Out Setup.vi"/>
-			<Item Name="Keith 7001 Display Message.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Display Message.vi"/>
-			<Item Name="Keith 7001 Error Query.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Error Query.vi"/>
-			<Item Name="Keith 7001 Immediate/Signal.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Immediate/Signal.vi"/>
-			<Item Name="Keith 7001 Initialize.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Initialize.vi"/>
-			<Item Name="Keith 7001 Open/Close Chan.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Open/Close Chan.vi"/>
-			<Item Name="Keith 7001 Open/Close Exam.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Open/Close Exam.vi"/>
-			<Item Name="Keith 7001 Perform Scan.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Perform Scan.vi"/>
-			<Item Name="Keith 7001 Receive Message.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Receive Message.vi"/>
-			<Item Name="Keith 7001 Reset / Preset.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Reset / Preset.vi"/>
-			<Item Name="Keith 7001 Sav/Rcl Channels.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Sav/Rcl Channels.vi"/>
-			<Item Name="Keith 7001 Sav/Rcl Setup.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Sav/Rcl Setup.vi"/>
-			<Item Name="Keith 7001 Scan Example.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Scan Example.vi"/>
-			<Item Name="Keith 7001 Send Message.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Send Message.vi"/>
-			<Item Name="Keith 7001 Send Trigger.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Send Trigger.vi"/>
-			<Item Name="Keith 7001 Trig Layer Config.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Trig Layer Config.vi"/>
-			<Item Name="Read SCPI Error Queue (GPIB).vi" Type="VI" URL="../SubVI/KE7001.LLB/Read SCPI Error Queue (GPIB).vi"/>
+		<Item Name="ex-vi" Type="Folder">
+			<Item Name="delta 0.1.vi" Type="VI" URL="../SubVI/delta 0.1.vi"/>
+			<Item Name="6517A.vi" Type="VI" URL="../SubVI/6517A.vi"/>
+			<Item Name="Keithley 6517 Relative Measurement.vi" Type="VI" URL="../lib/Keithley 6517/Examples/Keithley 6517 Relative Measurement.vi"/>
+			<Item Name="delta 0.1+7001.vi" Type="VI" URL="../SubVI/delta 0.1+7001.vi"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="SubVI.lvlib" Type="Library" URL="../SubVI.lvlib"/>
-		<Item Name="delta 0.1.vi" Type="VI" URL="../SubVI/delta 0.1.vi"/>
-		<Item Name="6517A.vi" Type="VI" URL="../SubVI/6517A.vi"/>
-		<Item Name="Keithley 6517 Relative Measurement.vi" Type="VI" URL="../lib/Keithley 6517/Examples/Keithley 6517 Relative Measurement.vi"/>
-		<Item Name="delta 0.1+7001.vi" Type="VI" URL="../SubVI/delta 0.1+7001.vi"/>
-		<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
-		<Item Name="Keithley 622x.lvlib" Type="Library" URL="../lib/Keithley 622x/Keithley 622x.lvlib"/>
-		<Item Name="Stanford Research 830.lvlib" Type="Library" URL="../lib/Stanford Research 830/Stanford Research 830.lvlib"/>
-		<Item Name="Keithley 2182.lvlib" Type="Library" URL="../lib/Keithley 2182/Keithley 2182.lvlib"/>
-		<Item Name="test.lvlib" Type="Library" URL="../test.lvlib"/>
-		<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../lib/Keithley 2400/Keithley 24XX/Keithley 24XX.lvlib"/>
-		<Item Name="error.ctl" Type="VI" URL="../SubVI/error.ctl"/>
+		<Item Name="config.ctl" Type="VI" URL="../SubVI/config.ctl"/>
 		<Item Name="显示.lvclass" Type="LVClass" URL="../SubVI/显示.lvclass"/>
-		<Item Name="Take Seq.lvlib" Type="Library" URL="../Take Seq.lvlib"/>
-		<Item Name="Add Seq.lvlib" Type="Library" URL="../Add Seq.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>
@@ -153,7 +159,6 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="config_file(SubVI).vi" Type="VI" URL="../SubVI/config_file(SubVI).vi"/>
 			<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
-			<Item Name="config.ctl" Type="VI" URL="../SubVI/config.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
