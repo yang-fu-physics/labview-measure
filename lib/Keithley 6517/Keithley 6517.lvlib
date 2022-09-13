@@ -147,5 +147,4 @@
 		<Item Name="Extended User Data.ctl" Type="VI" URL="../Private/Extended User Data.ctl"/>
 		<Item Name="Read Buffer Statistic.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 6517/Private/Read Buffer Statistic.vi"/>
 	</Item>
-	<Item Name="Keithley 6517 Readme.html" Type="Document" URL="/&lt;instrlib&gt;/Keithley 6517/Keithley 6517 Readme.html"/>
 </Library>
