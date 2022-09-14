@@ -41,4 +41,8 @@
 	<Item Name="Set Current (SubVI).vi" Type="VI" URL="../SubVI/Set Current (SubVI).vi"/>
 	<Item Name="log save.vi" Type="VI" URL="../SubVI/log save.vi"/>
 	<Item Name="Save Data (SubVI).vi" Type="VI" URL="../SubVI/Save Data (SubVI).vi"/>
+	<Item Name="Get Rotate Temp(SubVI).vi" Type="VI" URL="../SubVI/Get Rotate Temp(SubVI).vi"/>
+	<Item Name="Get All Temp (SubVI).vi" Type="VI" URL="../SubVI/Get All Temp (SubVI).vi"/>
+	<Item Name="Get All Instrument Value(SubVI).vi" Type="VI" URL="../SubVI/Get All Instrument Value(SubVI).vi"/>
+	<Item Name="config_file(SubVI).vi" Type="VI" URL="../SubVI/config_file(SubVI).vi"/>
 </Library>

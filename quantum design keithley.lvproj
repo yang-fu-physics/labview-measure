@@ -23,6 +23,9 @@
 				<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
 				<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
 				<Item Name="SetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetTemperature.vi"/>
+				<Item Name="GetPPMSItem.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/GetPPMSItem.vi"/>
+				<Item Name="SendPPMSCommand.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/SendPPMSCommand.vi"/>
+				<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
 			</Item>
 			<Item Name="Keithley 2400" Type="Folder">
 				<Item Name="Keithley 2400 Average Measure.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Average Measure.vi"/>
@@ -67,6 +70,41 @@
 				<Item Name="Keith 7001 Trig Layer Config.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Trig Layer Config.vi"/>
 				<Item Name="Read SCPI Error Queue (GPIB).vi" Type="VI" URL="../SubVI/KE7001.LLB/Read SCPI Error Queue (GPIB).vi"/>
 			</Item>
+			<Item Name="Lake Shore 335" Type="Folder">
+				<Item Name="Examples" Type="Folder">
+					<Item Name="Lake Shore 335 Acquire Multiple Readings.vi" Type="VI" URL="../lib/Lake Shore 335/Examples/Lake Shore 335 Acquire Multiple Readings.vi"/>
+					<Item Name="Lake Shore 335 Configure Output 2 Advanced Operation.vi" Type="VI" URL="../lib/Lake Shore 335/Examples/Lake Shore 335 Configure Output 2 Advanced Operation.vi"/>
+					<Item Name="Lake Shore 335 Configure Output Control Parameters and Acquire Single Reading.vi" Type="VI" URL="../lib/Lake Shore 335/Examples/Lake Shore 335 Configure Output Control Parameters and Acquire Single Reading.vi"/>
+					<Item Name="Lake Shore 335 Write Curve.vi" Type="VI" URL="../lib/Lake Shore 335/Examples/Lake Shore 335 Write Curve.vi"/>
+					<Item Name="Lake Shore 335.bin3" Type="Document" URL="../lib/Lake Shore 335/Examples/Lake Shore 335.bin3"/>
+				</Item>
+				<Item Name="Private" Type="Folder"/>
+				<Item Name="Public" Type="Folder">
+					<Item Name="Action-Status" Type="Folder">
+						<Item Name="Action-Status.mnu" Type="Document" URL="../lib/Lake Shore 335/Public/Action-Status/Action-Status.mnu"/>
+					</Item>
+					<Item Name="Configure" Type="Folder">
+						<Item Name="Configure.mnu" Type="Document" URL="../lib/Lake Shore 335/Public/Configure/Configure.mnu"/>
+					</Item>
+					<Item Name="Data" Type="Folder">
+						<Item Name="Data.mnu" Type="Document" URL="../lib/Lake Shore 335/Public/Data/Data.mnu"/>
+					</Item>
+					<Item Name="Utility" Type="Folder">
+						<Item Name="Utility.mnu" Type="Document" URL="../lib/Lake Shore 335/Public/Utility/Utility.mnu"/>
+					</Item>
+					<Item Name="dir.mnu" Type="Document" URL="../lib/Lake Shore 335/Public/dir.mnu"/>
+				</Item>
+				<Item Name="20220810-ch1_Cernox-1050.dat" Type="Document" URL="../lib/Lake Shore 335/20220810-ch1_Cernox-1050.dat"/>
+				<Item Name="20220815-335-read and save temppoint.vi" Type="VI" URL="../lib/Lake Shore 335/20220815-335-read and save temppoint.vi"/>
+				<Item Name="20220815-335-write temppoint.vi" Type="VI" URL="../lib/Lake Shore 335/20220815-335-write temppoint.vi"/>
+				<Item Name="CX-1050-20220815opju.opju" Type="Document" URL="../lib/Lake Shore 335/CX-1050-20220815opju.opju"/>
+				<Item Name="delete cruve.vi" Type="VI" URL="../lib/Lake Shore 335/delete cruve.vi"/>
+				<Item Name="Lake Shore 335 Readme.html" Type="Document" URL="../lib/Lake Shore 335/Lake Shore 335 Readme.html"/>
+				<Item Name="Lake Shore 335.aliases" Type="Document" URL="../lib/Lake Shore 335/Lake Shore 335.aliases"/>
+				<Item Name="Lake Shore 335.lvlib" Type="Library" URL="../lib/Lake Shore 335/Lake Shore 335.lvlib"/>
+				<Item Name="Lake Shore 335.lvlps" Type="Document" URL="../lib/Lake Shore 335/Lake Shore 335.lvlps"/>
+				<Item Name="Lake Shore 335.lvproj" Type="Document" URL="../lib/Lake Shore 335/Lake Shore 335.lvproj"/>
+			</Item>
 			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
 			<Item Name="Keithley 622x.lvlib" Type="Library" URL="../lib/Keithley 622x/Keithley 622x.lvlib"/>
 			<Item Name="Stanford Research 830.lvlib" Type="Library" URL="../lib/Stanford Research 830/Stanford Research 830.lvlib"/>
@@ -87,10 +125,13 @@
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="config.ctl" Type="VI" URL="../SubVI/config.ctl"/>
-		<Item Name="显示.lvclass" Type="LVClass" URL="../SubVI/显示.lvclass"/>
+		<Item Name="335 set Temp(SubVI).vi" Type="VI" URL="../335 set Temp(SubVI).vi"/>
+		<Item Name="Instrument.ctl" Type="VI" URL="../Instrument.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>
+				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
 				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
@@ -118,6 +159,7 @@
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -129,7 +171,9 @@
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Parse Address String.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_gpibsup.llb/Parse Address String.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
@@ -138,7 +182,10 @@
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -147,6 +194,7 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
@@ -154,11 +202,7 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="GetPPMSItem.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/GetPPMSItem.vi"/>
-			<Item Name="SendPPMSCommand.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/SendPPMSCommand.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="config_file(SubVI).vi" Type="VI" URL="../SubVI/config_file(SubVI).vi"/>
-			<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
