@@ -64,4 +64,7 @@
 	<Item Name="wait for 335(SubVI).vi" Type="VI" URL="../SubVI/wait for 335(SubVI).vi"/>
 	<Item Name="335 set Temp(SubVI).vi" Type="VI" URL="../SubVI/335 set Temp(SubVI).vi"/>
 	<Item Name="Get 335 Main Temp(SubVI).vi" Type="VI" URL="../SubVI/Get 335 Main Temp(SubVI).vi"/>
+	<Item Name="initalize gating(SubVI).vi" Type="VI" URL="../SubVI/initalize gating(SubVI).vi"/>
+	<Item Name="Configure Output without compliance.vi" Type="VI" URL="../lib/Keithley 24XX/Public/Configure/Configure Output without compliance.vi"/>
+	<Item Name="Read 2400 Data (SubVI).vi" Type="VI" URL="../SubVI/Read 2400 Data (SubVI).vi"/>
 </Library>

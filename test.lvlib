@@ -11,6 +11,7 @@
 	<Item Name="队列采集速度.vi" Type="VI" URL="../test/队列采集速度.vi"/>
 	<Item Name="队列测试.vi" Type="VI" URL="../test/队列测试.vi"/>
 	<Item Name="锁死与事件响应测试.vi" Type="VI" URL="../test/锁死与事件响应测试.vi"/>
+	<Item Name="引用测试.vi" Type="VI" URL="../test/引用测试.vi"/>
 	<Item Name="语句解析测试.vi" Type="VI" URL="../test/语句解析测试.vi"/>
 	<Item Name="字符串匹配测试.vi" Type="VI" URL="../test/字符串匹配测试.vi"/>
 </Library>

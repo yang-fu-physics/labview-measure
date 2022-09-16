@@ -8,6 +8,7 @@
 	<Item Name="add delta delay(SubVI).vi" Type="VI" URL="../SubVI/add delta delay(SubVI).vi"/>
 	<Item Name="add delta initalize(SubVI).vi" Type="VI" URL="../SubVI/add delta initalize(SubVI).vi"/>
 	<Item Name="add delta range(SubVI).vi" Type="VI" URL="../SubVI/add delta range(SubVI).vi"/>
+	<Item Name="add gating initalize(SubVI).vi" Type="VI" URL="../SubVI/add gating initalize(SubVI).vi"/>
 	<Item Name="add logppms(SubVI).vi" Type="VI" URL="../SubVI/add logppms(SubVI).vi"/>
 	<Item Name="add open sr830(SubVI).vi" Type="VI" URL="../SubVI/add open sr830(SubVI).vi"/>
 	<Item Name="add remark(SubVI).vi" Type="VI" URL="../SubVI/add remark(SubVI).vi"/>

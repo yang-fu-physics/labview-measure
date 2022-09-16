@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Item Name="我的电脑" Type="My Computer">
-		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Property Name="NI.SortType" Type="Int">2</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -11,39 +11,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="ex-vi" Type="Folder">
+			<Item Name="6517A.vi" Type="VI" URL="../SubVI/6517A.vi"/>
+			<Item Name="delta 0.1+7001.vi" Type="VI" URL="../SubVI/delta 0.1+7001.vi"/>
+			<Item Name="delta 0.1.vi" Type="VI" URL="../SubVI/delta 0.1.vi"/>
+			<Item Name="Keithley 6517 Relative Measurement.vi" Type="VI" URL="../lib/Keithley 6517/Examples/Keithley 6517 Relative Measurement.vi"/>
+		</Item>
 		<Item Name="lib" Type="Folder">
-			<Item Name="QDInstrument" Type="Folder">
-				<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
-				<Item Name="SetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetPosition.vi"/>
-				<Item Name="GetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetPosition.vi"/>
-				<Item Name="GetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetTemperature.vi"/>
-				<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
-				<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/OpenQDInstrument.vi"/>
-				<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/QDInstrumentExceptionHandler.vi"/>
-				<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
-				<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
-				<Item Name="SetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetTemperature.vi"/>
-				<Item Name="GetPPMSItem.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/GetPPMSItem.vi"/>
-				<Item Name="SendPPMSCommand.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/SendPPMSCommand.vi"/>
-				<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
-			</Item>
-			<Item Name="Keithley 2400" Type="Folder">
-				<Item Name="Keithley 2400 Average Measure.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Average Measure.vi"/>
-				<Item Name="Keithley 2400 Close.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Close.vi"/>
-				<Item Name="Keithley 2400 Current Read.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Current Read.vi"/>
-				<Item Name="Keithley 2400 Current Set.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Current Set.vi"/>
-				<Item Name="Keithley 2400 Init.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Init.vi"/>
-				<Item Name="Keithley 2400 Output.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Output.vi"/>
-				<Item Name="Keithley 2400 Read.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Read.vi"/>
-				<Item Name="Keithley 2400 Setting Strings.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Setting Strings.vi"/>
-				<Item Name="Keithley 2400 Settings.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Settings.vi"/>
-				<Item Name="Keithley 2400 Source Measuret.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Source Measuret.vi"/>
-				<Item Name="Keithley 2400 Source Set.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Source Set.vi"/>
-				<Item Name="Keithley 2400 Test.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Test.vi"/>
-				<Item Name="Keithley 2400 Voltage Read.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Voltage Read.vi"/>
-				<Item Name="Keithley 2400 Voltage Set.vi" Type="VI" URL="../lib/Keithley 2400/Keithley 2400 Voltage Set.vi"/>
-				<Item Name="Keithley Tree.vi" Type="VI" URL="../lib/Keithley 2400/Keithley Tree.vi"/>
-			</Item>
 			<Item Name="KE7001" Type="Folder">
 				<Item Name="Error Query Global.vi" Type="VI" URL="../SubVI/KE7001.LLB/Error Query Global.vi"/>
 				<Item Name="Keith 7001 Arm Lay 1 Config.vi" Type="VI" URL="../SubVI/KE7001.LLB/Keith 7001 Arm Lay 1 Config.vi"/>
@@ -105,29 +79,38 @@
 				<Item Name="Lake Shore 335.lvlps" Type="Document" URL="../lib/Lake Shore 335/Lake Shore 335.lvlps"/>
 				<Item Name="Lake Shore 335.lvproj" Type="Document" URL="../lib/Lake Shore 335/Lake Shore 335.lvproj"/>
 			</Item>
-			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
+			<Item Name="QDInstrument" Type="Folder">
+				<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
+				<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
+				<Item Name="GetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetPosition.vi"/>
+				<Item Name="GetPPMSItem.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/GetPPMSItem.vi"/>
+				<Item Name="GetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetTemperature.vi"/>
+				<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/OpenQDInstrument.vi"/>
+				<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
+				<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/QDInstrumentExceptionHandler.vi"/>
+				<Item Name="SendPPMSCommand.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/SendPPMSCommand.vi"/>
+				<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
+				<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
+				<Item Name="SetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetPosition.vi"/>
+				<Item Name="SetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetTemperature.vi"/>
+			</Item>
+			<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../lib/Keithley 24XX/Keithley 24XX.lvlib"/>
 			<Item Name="Keithley 622x.lvlib" Type="Library" URL="../lib/Keithley 622x/Keithley 622x.lvlib"/>
-			<Item Name="Stanford Research 830.lvlib" Type="Library" URL="../lib/Stanford Research 830/Stanford Research 830.lvlib"/>
 			<Item Name="Keithley 2182.lvlib" Type="Library" URL="../lib/Keithley 2182/Keithley 2182.lvlib"/>
-			<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../lib/Keithley 2400/Keithley 24XX/Keithley 24XX.lvlib"/>
+			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
+			<Item Name="Stanford Research 830.lvlib" Type="Library" URL="../lib/Stanford Research 830/Stanford Research 830.lvlib"/>
 		</Item>
 		<Item Name="SubVI" Type="Folder">
+			<Item Name="Add Seq.lvlib" Type="Library" URL="../Add Seq.lvlib"/>
+			<Item Name="old.lvlib" Type="Library" URL="../old.lvlib"/>
 			<Item Name="SubVI.lvlib" Type="Library" URL="../SubVI.lvlib"/>
 			<Item Name="Take Seq.lvlib" Type="Library" URL="../Take Seq.lvlib"/>
-			<Item Name="Add Seq.lvlib" Type="Library" URL="../Add Seq.lvlib"/>
 			<Item Name="test.lvlib" Type="Library" URL="../test.lvlib"/>
-			<Item Name="old.lvlib" Type="Library" URL="../old.lvlib"/>
-		</Item>
-		<Item Name="ex-vi" Type="Folder">
-			<Item Name="delta 0.1.vi" Type="VI" URL="../SubVI/delta 0.1.vi"/>
-			<Item Name="6517A.vi" Type="VI" URL="../SubVI/6517A.vi"/>
-			<Item Name="Keithley 6517 Relative Measurement.vi" Type="VI" URL="../lib/Keithley 6517/Examples/Keithley 6517 Relative Measurement.vi"/>
-			<Item Name="delta 0.1+7001.vi" Type="VI" URL="../SubVI/delta 0.1+7001.vi"/>
 		</Item>
 		<Item Name="自定义控件" Type="Folder">
+			<Item Name="335 state.ctl" Type="VI" URL="../SubVI/335 state.ctl"/>
 			<Item Name="config.ctl" Type="VI" URL="../SubVI/config.ctl"/>
 			<Item Name="Instrument.ctl" Type="VI" URL="../Instrument.ctl"/>
-			<Item Name="335 state.ctl" Type="VI" URL="../SubVI/335 state.ctl"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
