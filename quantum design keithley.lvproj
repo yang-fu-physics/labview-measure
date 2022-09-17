@@ -12,9 +12,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ex-vi" Type="Folder">
-			<Item Name="6517A.vi" Type="VI" URL="../SubVI/6517A.vi"/>
-			<Item Name="delta 0.1+7001.vi" Type="VI" URL="../SubVI/delta 0.1+7001.vi"/>
-			<Item Name="delta 0.1.vi" Type="VI" URL="../SubVI/delta 0.1.vi"/>
+			<Item Name="6517A.vi" Type="VI" URL="../ex-vi/6517A.vi"/>
+			<Item Name="delta 0.1+7001.vi" Type="VI" URL="../ex-vi/delta 0.1+7001.vi"/>
+			<Item Name="delta 0.1.vi" Type="VI" URL="../ex-vi/delta 0.1.vi"/>
 			<Item Name="Keithley 6517 Relative Measurement.vi" Type="VI" URL="../lib/Keithley 6517/Examples/Keithley 6517 Relative Measurement.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder">
@@ -101,16 +101,15 @@
 			<Item Name="Stanford Research 830.lvlib" Type="Library" URL="../lib/Stanford Research 830/Stanford Research 830.lvlib"/>
 		</Item>
 		<Item Name="SubVI" Type="Folder">
-			<Item Name="Add Seq.lvlib" Type="Library" URL="../Add Seq.lvlib"/>
-			<Item Name="old.lvlib" Type="Library" URL="../old.lvlib"/>
-			<Item Name="SubVI.lvlib" Type="Library" URL="../SubVI.lvlib"/>
-			<Item Name="Take Seq.lvlib" Type="Library" URL="../Take Seq.lvlib"/>
-			<Item Name="test.lvlib" Type="Library" URL="../test.lvlib"/>
+			<Item Name="Add Seq.lvlib" Type="Library" URL="../SubVI/Add Seq.lvlib"/>
+			<Item Name="SubVI.lvlib" Type="Library" URL="../SubVI/SubVI.lvlib"/>
+			<Item Name="Take Seq.lvlib" Type="Library" URL="../SubVI/Take Seq.lvlib"/>
+			<Item Name="test.lvlib" Type="Library" URL="../SubVI/test.lvlib"/>
 		</Item>
 		<Item Name="自定义控件" Type="Folder">
 			<Item Name="335 state.ctl" Type="VI" URL="../SubVI/335 state.ctl"/>
 			<Item Name="config.ctl" Type="VI" URL="../SubVI/config.ctl"/>
-			<Item Name="Instrument.ctl" Type="VI" URL="../Instrument.ctl"/>
+			<Item Name="Instrument.ctl" Type="VI" URL="../SubVI/Instrument.ctl"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
@@ -216,7 +215,6 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="335 Read and Compressor auto control(SubVI).vi" Type="VI" URL="../SubVI/335 Read and Compressor auto control(SubVI).vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
