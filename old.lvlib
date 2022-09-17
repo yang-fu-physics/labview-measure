@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="auto sensitivity(SubVI).vi" Type="VI" URL="../SubVI/auto sensitivity(SubVI).vi"/>
+	<Item Name="auto sensitivity(old).vi" Type="VI" URL="../SubVI/auto sensitivity(old).vi"/>
 	<Item Name="field setpoint(SubVI).vi" Type="VI" URL="../SubVI/field setpoint(SubVI).vi"/>
 	<Item Name="field sweep(SubVI).vi" Type="VI" URL="../SubVI/field sweep(SubVI).vi"/>
 	<Item Name="initalize(SubVI).vi" Type="VI" URL="../SubVI/initalize(SubVI).vi"/>

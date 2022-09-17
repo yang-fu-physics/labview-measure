@@ -67,4 +67,5 @@
 	<Item Name="initalize gating(SubVI).vi" Type="VI" URL="../SubVI/initalize gating(SubVI).vi"/>
 	<Item Name="Configure Output without compliance.vi" Type="VI" URL="../lib/Keithley 24XX/Public/Configure/Configure Output without compliance.vi"/>
 	<Item Name="Read 2400 Data (SubVI).vi" Type="VI" URL="../SubVI/Read 2400 Data (SubVI).vi"/>
+	<Item Name="auto sensitivity(SubVI).vi" Type="VI" URL="../SubVI/auto sensitivity(SubVI).vi"/>
 </Library>
