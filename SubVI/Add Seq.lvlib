@@ -5,25 +5,25 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="add datafile(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add datafile(SubVI).vi"/>
-	<Item Name="add delta initalize(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add delta initalize(SubVI).vi"/>
-	<Item Name="add delta range(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add delta range(SubVI).vi"/>
-	<Item Name="add gating initalize(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add gating initalize(SubVI).vi"/>
-	<Item Name="add logppms(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add logppms(SubVI).vi"/>
-	<Item Name="add open sr830(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add open sr830(SubVI).vi"/>
-	<Item Name="add remark(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add remark(SubVI).vi"/>
-	<Item Name="add scan current(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add scan current(SubVI).vi"/>
-	<Item Name="add scan field(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add scan field(SubVI).vi"/>
-	<Item Name="add scan position(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add scan position(SubVI).vi"/>
-	<Item Name="add scan temp(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add scan temp(SubVI).vi"/>
-	<Item Name="add scan time(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add scan time(SubVI).vi"/>
-	<Item Name="add select channel(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add select channel(SubVI).vi"/>
-	<Item Name="add set current(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add set current(SubVI).vi"/>
-	<Item Name="add set field(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add set field(SubVI).vi"/>
-	<Item Name="add set gating(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add set gating(SubVI).vi"/>
-	<Item Name="add set position(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add set position(SubVI).vi"/>
-	<Item Name="add set temp(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add set temp(SubVI).vi"/>
-	<Item Name="add SR830(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add SR830(SubVI).vi"/>
-	<Item Name="add wait(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add wait(SubVI).vi"/>
-	<Item Name="add delta delay(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add delta delay(SubVI).vi"/>
+	<Item Name="add datafile(SubVI).vi" Type="VI" URL="../Add Seq/add datafile(SubVI).vi"/>
+	<Item Name="add delta initalize(SubVI).vi" Type="VI" URL="../Add Seq/add delta initalize(SubVI).vi"/>
+	<Item Name="add delta range(SubVI).vi" Type="VI" URL="../Add Seq/add delta range(SubVI).vi"/>
+	<Item Name="add gating initalize(SubVI).vi" Type="VI" URL="../Add Seq/add gating initalize(SubVI).vi"/>
+	<Item Name="add logppms(SubVI).vi" Type="VI" URL="../Add Seq/add logppms(SubVI).vi"/>
+	<Item Name="add open sr830(SubVI).vi" Type="VI" URL="../Add Seq/add open sr830(SubVI).vi"/>
+	<Item Name="add remark(SubVI).vi" Type="VI" URL="../Add Seq/add remark(SubVI).vi"/>
+	<Item Name="add scan current(SubVI).vi" Type="VI" URL="../Add Seq/add scan current(SubVI).vi"/>
+	<Item Name="add scan field(SubVI).vi" Type="VI" URL="../Add Seq/add scan field(SubVI).vi"/>
+	<Item Name="add scan position(SubVI).vi" Type="VI" URL="../Add Seq/add scan position(SubVI).vi"/>
+	<Item Name="add scan temp(SubVI).vi" Type="VI" URL="../Add Seq/add scan temp(SubVI).vi"/>
+	<Item Name="add scan time(SubVI).vi" Type="VI" URL="../Add Seq/add scan time(SubVI).vi"/>
+	<Item Name="add select channel(SubVI).vi" Type="VI" URL="../Add Seq/add select channel(SubVI).vi"/>
+	<Item Name="add set current(SubVI).vi" Type="VI" URL="../Add Seq/add set current(SubVI).vi"/>
+	<Item Name="add set field(SubVI).vi" Type="VI" URL="../Add Seq/add set field(SubVI).vi"/>
+	<Item Name="add set gating(SubVI).vi" Type="VI" URL="../Add Seq/add set gating(SubVI).vi"/>
+	<Item Name="add set position(SubVI).vi" Type="VI" URL="../Add Seq/add set position(SubVI).vi"/>
+	<Item Name="add set temp(SubVI).vi" Type="VI" URL="../Add Seq/add set temp(SubVI).vi"/>
+	<Item Name="add SR830(SubVI).vi" Type="VI" URL="../Add Seq/add SR830(SubVI).vi"/>
+	<Item Name="add wait(SubVI).vi" Type="VI" URL="../Add Seq/add wait(SubVI).vi"/>
+	<Item Name="add delta delay(SubVI).vi" Type="VI" URL="../Add Seq/add delta delay(SubVI).vi"/>
 </Library>

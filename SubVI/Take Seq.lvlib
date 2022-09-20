@@ -4,18 +4,18 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Delta delay (seq) (SubVI).vi" Type="VI" URL="../SubVI/Take Seq/Delta delay (seq) (SubVI).vi"/>
-	<Item Name="Delta range (seq) (SubVI).vi" Type="VI" URL="../SubVI/Take Seq/Delta range (seq) (SubVI).vi"/>
-	<Item Name="Initalize (seq）(SubVI).vi" Type="VI" URL="../SubVI/Take Seq/Initalize (seq）(SubVI).vi"/>
-	<Item Name="log header (seq) (SubVI).vi" Type="VI" URL="../SubVI/Take Seq/log header (seq) (SubVI).vi"/>
-	<Item Name="Scan Field str (SubVI).vi" Type="VI" URL="../SubVI/Take Seq/Scan Field str (SubVI).vi"/>
-	<Item Name="Scan Temp str (SubVI).vi" Type="VI" URL="../SubVI/Take Seq/Scan Temp str (SubVI).vi"/>
-	<Item Name="Scan Time (str) (SubVI).vi" Type="VI" URL="../SubVI/Take Seq/Scan Time (str) (SubVI).vi"/>
-	<Item Name="Select ch str (SubVI).vi" Type="VI" URL="../SubVI/Take Seq/Select ch str (SubVI).vi"/>
-	<Item Name="seq scan current(SubVI).vi" Type="VI" URL="../SubVI/Take Seq/seq scan current(SubVI).vi"/>
-	<Item Name="Set Current (seq) (SubVI).vi" Type="VI" URL="../SubVI/Take Seq/Set Current (seq) (SubVI).vi"/>
-	<Item Name="Set Data (str) (子VI).vi" Type="VI" URL="../SubVI/Take Seq/Set Data (str) (子VI).vi"/>
-	<Item Name="Set Mag str (SubVI).vi" Type="VI" URL="../SubVI/Take Seq/Set Mag str (SubVI).vi"/>
-	<Item Name="Set Temp str (SubVI).vi" Type="VI" URL="../SubVI/Take Seq/Set Temp str (SubVI).vi"/>
-	<Item Name="Wait For (str) (SubVI).vi" Type="VI" URL="../SubVI/Take Seq/Wait For (str) (SubVI).vi"/>
+	<Item Name="Delta delay (seq) (SubVI).vi" Type="VI" URL="../Take Seq/Delta delay (seq) (SubVI).vi"/>
+	<Item Name="Delta range (seq) (SubVI).vi" Type="VI" URL="../Take Seq/Delta range (seq) (SubVI).vi"/>
+	<Item Name="Initalize (seq）(SubVI).vi" Type="VI" URL="../Take Seq/Initalize (seq）(SubVI).vi"/>
+	<Item Name="log header (seq) (SubVI).vi" Type="VI" URL="../Take Seq/log header (seq) (SubVI).vi"/>
+	<Item Name="Scan Field str (SubVI).vi" Type="VI" URL="../Take Seq/Scan Field str (SubVI).vi"/>
+	<Item Name="Scan Temp str (SubVI).vi" Type="VI" URL="../Take Seq/Scan Temp str (SubVI).vi"/>
+	<Item Name="Scan Time (str) (SubVI).vi" Type="VI" URL="../Take Seq/Scan Time (str) (SubVI).vi"/>
+	<Item Name="Select ch str (SubVI).vi" Type="VI" URL="../Take Seq/Select ch str (SubVI).vi"/>
+	<Item Name="seq scan current(SubVI).vi" Type="VI" URL="../Take Seq/seq scan current(SubVI).vi"/>
+	<Item Name="Set Current (seq) (SubVI).vi" Type="VI" URL="../Take Seq/Set Current (seq) (SubVI).vi"/>
+	<Item Name="Set Data (str) (子VI).vi" Type="VI" URL="../Take Seq/Set Data (str) (子VI).vi"/>
+	<Item Name="Set Mag str (SubVI).vi" Type="VI" URL="../Take Seq/Set Mag str (SubVI).vi"/>
+	<Item Name="Set Temp str (SubVI).vi" Type="VI" URL="../Take Seq/Set Temp str (SubVI).vi"/>
+	<Item Name="Wait For (str) (SubVI).vi" Type="VI" URL="../Take Seq/Wait For (str) (SubVI).vi"/>
 </Library>
