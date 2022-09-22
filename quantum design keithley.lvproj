@@ -11,6 +11,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="ctl" Type="Folder">
+			<Item Name="335 state.ctl" Type="VI" URL="../SubVI/335 state.ctl"/>
+			<Item Name="config.ctl" Type="VI" URL="../SubVI/config.ctl"/>
+			<Item Name="Instrument.ctl" Type="VI" URL="../SubVI/Instrument.ctl"/>
+		</Item>
 		<Item Name="ex-vi" Type="Folder">
 			<Item Name="6517A.vi" Type="VI" URL="../ex-vi/6517A.vi"/>
 			<Item Name="delta 0.1+7001.vi" Type="VI" URL="../ex-vi/delta 0.1+7001.vi"/>
@@ -105,11 +110,6 @@
 			<Item Name="SubVI.lvlib" Type="Library" URL="../SubVI/SubVI.lvlib"/>
 			<Item Name="Take Seq.lvlib" Type="Library" URL="../SubVI/Take Seq.lvlib"/>
 			<Item Name="test.lvlib" Type="Library" URL="../SubVI/test.lvlib"/>
-		</Item>
-		<Item Name="自定义控件" Type="Folder">
-			<Item Name="335 state.ctl" Type="VI" URL="../SubVI/335 state.ctl"/>
-			<Item Name="config.ctl" Type="VI" URL="../SubVI/config.ctl"/>
-			<Item Name="Instrument.ctl" Type="VI" URL="../SubVI/Instrument.ctl"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">

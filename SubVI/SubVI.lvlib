@@ -69,4 +69,5 @@
 	<Item Name="Read 2400 Data (SubVI).vi" Type="VI" URL="../SubVI/Read 2400 Data (SubVI).vi"/>
 	<Item Name="auto sensitivity(SubVI).vi" Type="VI" URL="../SubVI/auto sensitivity(SubVI).vi"/>
 	<Item Name="335 Read and Compressor auto control(SubVI).vi" Type="VI" URL="../SubVI/335 Read and Compressor auto control(SubVI).vi"/>
+	<Item Name="Get 2400 output.vi" Type="VI" URL="../SubVI/Get 2400 output.vi"/>
 </Library>
