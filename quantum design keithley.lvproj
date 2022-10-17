@@ -84,6 +84,161 @@
 				<Item Name="Lake Shore 335.lvlps" Type="Document" URL="../lib/Lake Shore 335/Lake Shore 335.lvlps"/>
 				<Item Name="Lake Shore 335.lvproj" Type="Document" URL="../lib/Lake Shore 335/Lake Shore 335.lvproj"/>
 			</Item>
+			<Item Name="magnet" Type="Folder">
+				<Item Name="4G power supply" Type="Folder">
+					<Item Name="4G_LV6_1_rev0" Type="Folder">
+						<Property Name="NI.SortType" Type="Int">3</Property>
+						<Item Name="4G Close.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Close.vi"/>
+						<Item Name="4G Channel Select.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Channel Select.vi"/>
+						<Item Name="4G Config.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Config.vi"/>
+						<Item Name="4G Dual Supply Status.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Dual Supply Status.vi"/>
+						<Item Name="4G Error Message.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Error Message.vi"/>
+						<Item Name="4G Error Status.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Error Status.vi"/>
+						<Item Name="4G Get Limits.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Get Limits.vi"/>
+						<Item Name="4G Get Operational Mode.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Get Operational Mode.vi"/>
+						<Item Name="4G Get Rates.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Get Rates.vi"/>
+						<Item Name="4G Get Ranges.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Get Ranges.vi"/>
+						<Item Name="4G Get Stb.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Get Stb.vi"/>
+						<Item Name="4G Get Sweep Mode.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Get Sweep Mode.vi"/>
+						<Item Name="4G Get Switch Heater.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Get Switch Heater.vi"/>
+						<Item Name="4G Get Units.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Get Units.vi"/>
+						<Item Name="4G Initialize.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Initialize.vi"/>
+						<Item Name="4G Read Volts.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Read Volts.vi"/>
+						<Item Name="4G Read Current.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Read Current.vi"/>
+						<Item Name="4G Read Mag Current.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Read Mag Current.vi"/>
+						<Item Name="4G Read Mag Volts.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Read Mag Volts.vi"/>
+						<Item Name="4G Recall.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Recall.vi"/>
+						<Item Name="4G Reset.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Reset.vi"/>
+						<Item Name="4G Self-Test.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Self-Test.vi"/>
+						<Item Name="4G Set Limits.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Set Limits.vi"/>
+						<Item Name="4G Set Ranges.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Set Ranges.vi"/>
+						<Item Name="4G Set Rates.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Set Rates.vi"/>
+						<Item Name="4G Set Sweep Mode.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Set Sweep Mode.vi"/>
+						<Item Name="4G Set Switch Heater.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Set Switch Heater.vi"/>
+						<Item Name="4G Set Units.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Set Units.vi"/>
+						<Item Name="4G Single Supply Status.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Single Supply Status.vi"/>
+						<Item Name="4G Utility Clean Up Initia.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Utility Clean Up Initia.vi"/>
+						<Item Name="4G Utility Default Instrum.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Utility Default Instrum.vi"/>
+						<Item Name="4G Write.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Write.vi"/>
+						<Item Name="Simple Error Handler.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/Simple Error Handler.vi"/>
+						<Item Name="4G Revision Query.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Revision Query.vi"/>
+						<Item Name="sweep.ctl" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/sweep.ctl"/>
+					</Item>
+				</Item>
+				<Item Name="M24C_LV16" Type="Folder">
+					<Item Name="M24C" Type="Folder">
+						<Item Name="CurveDownload.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/CurveDownload.vi"/>
+						<Item Name="Icon_Tree.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Icon_Tree.vi"/>
+						<Item Name="IEEECommonCommands.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/IEEECommonCommands.vi"/>
+						<Item Name="Input_Alarm_Audio.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Alarm_Audio.vi"/>
+						<Item Name="Input_Alarm_Clear.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Alarm_Clear.vi"/>
+						<Item Name="Input_Alarm_Deadband.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Alarm_Deadband.vi"/>
+						<Item Name="Input_Alarm_HighEnable.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Alarm_HighEnable.vi"/>
+						<Item Name="Input_Alarm_Highest.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Alarm_Highest.vi"/>
+						<Item Name="Input_Alarm_Latched.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Alarm_Latched.vi"/>
+						<Item Name="Input_Alarm_LowEnable.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Alarm_LowEnable.vi"/>
+						<Item Name="Input_Alarm_Lowest.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Alarm_Lowest.vi"/>
+						<Item Name="Input_Alarm_Status_Query.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Alarm_Status_Query.vi"/>
+						<Item Name="Input_BridgeRange.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_BridgeRange.vi"/>
+						<Item Name="Input_BridgeUnlockQuery.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_BridgeUnlockQuery.vi"/>
+						<Item Name="Input_Get_Config.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Get_Config.vi"/>
+						<Item Name="Input_Get_Raw_Reading.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Get_Raw_Reading.vi"/>
+						<Item Name="Input_Get_SensorPD.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Get_SensorPD.vi"/>
+						<Item Name="Input_Get_Statistics.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Get_Statistics.vi"/>
+						<Item Name="Input_Name.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Name.vi"/>
+						<Item Name="Input_Read_Temp.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Read_Temp.vi"/>
+						<Item Name="Input_Reset_Statistics.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Reset_Statistics.vi"/>
+						<Item Name="Input_SensorTypeIndex.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_SensorTypeIndex.vi"/>
+						<Item Name="Input_Units.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_Units.vi"/>
+						<Item Name="Input_VoltageBias_M24C.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Input_VoltageBias_M24C.vi"/>
+						<Item Name="Loop1_Load.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop1_Load.vi"/>
+						<Item Name="Loop1_Range.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop1_Range.vi"/>
+						<Item Name="Loop2_Range.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop2_Range.vi"/>
+						<Item Name="Loop_CONTROL.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_CONTROL.vi"/>
+						<Item Name="Loop_DerivativeGain.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_DerivativeGain.vi"/>
+						<Item Name="Loop_IntegralGain.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_IntegralGain.vi"/>
+						<Item Name="Loop_ManualPower.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_ManualPower.vi"/>
+						<Item Name="Loop_MaximumPower.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_MaximumPower.vi"/>
+						<Item Name="Loop_MaxSetpoint.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_MaxSetpoint.vi"/>
+						<Item Name="Loop_Output_Power.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_Output_Power.vi"/>
+						<Item Name="Loop_ProportionalGain.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_ProportionalGain.vi"/>
+						<Item Name="Loop_RAMP?.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_RAMP?.vi"/>
+						<Item Name="Loop_RampRate.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_RampRate.vi"/>
+						<Item Name="Loop_Set_PID.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_Set_PID.vi"/>
+						<Item Name="Loop_Setpoint.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_Setpoint.vi"/>
+						<Item Name="Loop_Source.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_Source.vi"/>
+						<Item Name="Loop_STOP.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_STOP.vi"/>
+						<Item Name="Loop_Type.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Loop_Type.vi"/>
+						<Item Name="M24C_DAQ.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/M24C_DAQ.vi"/>
+						<Item Name="OvertempEnable.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/OvertempEnable.vi"/>
+						<Item Name="OvertempSource.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/OvertempSource.vi"/>
+						<Item Name="OvertempTemperature.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/OvertempTemperature.vi"/>
+						<Item Name="Query_PID.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Query_PID.vi"/>
+						<Item Name="Relay_Deadband.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Relay_Deadband.vi"/>
+						<Item Name="Relay_High_setpoint.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Relay_High_setpoint.vi"/>
+						<Item Name="Relay_HighEnable.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Relay_HighEnable.vi"/>
+						<Item Name="Relay_Low_setpoint.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Relay_Low_setpoint.vi"/>
+						<Item Name="Relay_LowEnable.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Relay_LowEnable.vi"/>
+						<Item Name="Relay_Mode.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Relay_Mode.vi"/>
+						<Item Name="Relay_Source.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Relay_Source.vi"/>
+						<Item Name="Relay_Status_Query.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Relay_Status_Query.vi"/>
+						<Item Name="Revision_Query.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/Revision_Query.vi"/>
+						<Item Name="System_BEEP.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_BEEP.vi"/>
+						<Item Name="System_Date.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_Date.vi"/>
+						<Item Name="System_DisplayFilter.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_DisplayFilter.vi"/>
+						<Item Name="System_DisplayResolution.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_DisplayResolution.vi"/>
+						<Item Name="System_FirmwareRev?.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_FirmwareRev?.vi"/>
+						<Item Name="System_HardwareRev?.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_HardwareRev?.vi"/>
+						<Item Name="System_Home.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_Home.vi"/>
+						<Item Name="System_LineFrequency.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_LineFrequency.vi"/>
+						<Item Name="System_Lockout.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_Lockout.vi"/>
+						<Item Name="System_Name.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_Name.vi"/>
+						<Item Name="System_NVSave.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_NVSave.vi"/>
+						<Item Name="System_PowerUpControl.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_PowerUpControl.vi"/>
+						<Item Name="System_RemoteLED.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_RemoteLED.vi"/>
+						<Item Name="System_Reseed_InputAve.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_Reseed_InputAve.vi"/>
+						<Item Name="System_Time.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C.llb/System_Time.vi"/>
+					</Item>
+					<Item Name="M24C_Config" Type="Folder">
+						<Item Name="Configure Alarm.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Config.llb/Configure Alarm.vi"/>
+						<Item Name="Configure Input.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Config.llb/Configure Input.vi"/>
+						<Item Name="Configure Instrument.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Config.llb/Configure Instrument.vi"/>
+						<Item Name="Configure Loops.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Config.llb/Configure Loops.vi"/>
+						<Item Name="Configure TC.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Config.llb/Configure TC.vi"/>
+					</Item>
+					<Item Name="M24C_Examples" Type="Folder">
+						<Item Name="CC_ControlExample.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/CC_ControlExample.vi"/>
+						<Item Name="CC_GetInput.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/CC_GetInput.vi"/>
+						<Item Name="CC_GetPID.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/CC_GetPID.vi"/>
+						<Item Name="CC_GetStats.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/CC_GetStats.vi"/>
+						<Item Name="CC_SetPIDi.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/CC_SetPIDi.vi"/>
+						<Item Name="Example_Config_Input.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/Example_Config_Input.vi"/>
+						<Item Name="Example_Hi_Input_Enable.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/Example_Hi_Input_Enable.vi"/>
+						<Item Name="Example_Input_sensor.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/Example_Input_sensor.vi"/>
+						<Item Name="Example_Read_name.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/Example_Read_name.vi"/>
+						<Item Name="Example_Read_time.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/Example_Read_time.vi"/>
+						<Item Name="Loop_Setpoint_Example.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/Loop_Setpoint_Example.vi"/>
+						<Item Name="Read_Temp_Example.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/Read_Temp_Example.vi"/>
+						<Item Name="Relay_Example.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/Relay_Example.vi"/>
+						<Item Name="UDP_Example.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24C_Examples.llb/UDP_Example.vi"/>
+					</Item>
+					<Item Name="M24CU" Type="Folder">
+						<Item Name="CC_Close.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24CU.llb/CC_Close.vi"/>
+						<Item Name="CC_Error.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24CU.llb/CC_Error.vi"/>
+						<Item Name="CC_Error_Handler.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24CU.llb/CC_Error_Handler.vi"/>
+						<Item Name="CC_Initialize.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24CU.llb/CC_Initialize.vi"/>
+						<Item Name="CC_IO.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24CU.llb/CC_IO.vi"/>
+						<Item Name="CC_Read.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24CU.llb/CC_Read.vi"/>
+						<Item Name="CC_WriteCmd.vi" Type="VI" URL="../lib/magnet/M24C_LV16/M24CU.llb/CC_WriteCmd.vi"/>
+					</Item>
+					<Item Name="M24C.txt" Type="Document" URL="../lib/magnet/M24C_LV16/M24C.txt"/>
+				</Item>
+				<Item Name="termperature moniter" Type="Folder">
+					<Item Name="TM-62x Write.vi" Type="VI" URL="../lib/magnet/termperature moniter/TM-62x Write.vi"/>
+					<Item Name="TM-620 Sensor Reading.vi" Type="VI" URL="../lib/magnet/termperature moniter/TM-620 Sensor Reading.vi"/>
+					<Item Name="TM624.vi" Type="VI" URL="../lib/magnet/termperature moniter/TM624.vi"/>
+				</Item>
+			</Item>
 			<Item Name="QDInstrument" Type="Folder">
 				<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
 				<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
@@ -106,11 +261,14 @@
 			<Item Name="Stanford Research 830.lvlib" Type="Library" URL="../lib/Stanford Research 830/Stanford Research 830.lvlib"/>
 		</Item>
 		<Item Name="SubVI" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="9T cmag.lvlib" Type="Library" URL="../SubVI/9T cmag.lvlib"/>
 			<Item Name="Add Seq.lvlib" Type="Library" URL="../SubVI/Add Seq.lvlib"/>
 			<Item Name="SubVI.lvlib" Type="Library" URL="../SubVI/SubVI.lvlib"/>
 			<Item Name="Take Seq.lvlib" Type="Library" URL="../SubVI/Take Seq.lvlib"/>
 			<Item Name="test.lvlib" Type="Library" URL="../SubVI/test.lvlib"/>
 		</Item>
+		<Item Name="6221+2182.vi" Type="VI" URL="../6221+2182.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -131,7 +289,11 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
+				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
+				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
@@ -166,14 +328,17 @@
 				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Protocol.lvclass"/>
 				<Item Name="Network Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Network Slave.lvclass"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Parse Address String.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_gpibsup.llb/Parse Address String.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
@@ -192,7 +357,7 @@
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -207,13 +372,16 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Characters To File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Characters To File.vi"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="控件 1.ctl" Type="VI" URL="../SubVI/控件 1.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>

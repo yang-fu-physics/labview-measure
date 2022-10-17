@@ -4,14 +4,18 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="abort测试.vi" Type="VI" URL="../test/abort测试.vi"/>
-	<Item Name="log测试.vi" Type="VI" URL="../test/log测试.vi"/>
-	<Item Name="R-T测试.vi" Type="VI" URL="../test/R-T测试.vi"/>
-	<Item Name="储存测试.vi" Type="VI" URL="../test/储存测试.vi"/>
-	<Item Name="队列采集速度.vi" Type="VI" URL="../test/队列采集速度.vi"/>
-	<Item Name="队列测试.vi" Type="VI" URL="../test/队列测试.vi"/>
-	<Item Name="锁死与事件响应测试.vi" Type="VI" URL="../test/锁死与事件响应测试.vi"/>
-	<Item Name="引用测试.vi" Type="VI" URL="../test/引用测试.vi"/>
-	<Item Name="语句解析测试.vi" Type="VI" URL="../test/语句解析测试.vi"/>
-	<Item Name="字符串匹配测试.vi" Type="VI" URL="../test/字符串匹配测试.vi"/>
+	<Item Name="abort测试.vi" Type="VI" URL="../../test/abort测试.vi"/>
+	<Item Name="log测试.vi" Type="VI" URL="../../test/log测试.vi"/>
+	<Item Name="R-T测试.vi" Type="VI" URL="../../test/R-T测试.vi"/>
+	<Item Name="vi time get.vi" Type="VI" URL="../../test/vi time get.vi"/>
+	<Item Name="储存测试.vi" Type="VI" URL="../../test/储存测试.vi"/>
+	<Item Name="队列采集速度.vi" Type="VI" URL="../../test/队列采集速度.vi"/>
+	<Item Name="队列测试.vi" Type="VI" URL="../../test/队列测试.vi"/>
+	<Item Name="锁死与事件响应测试.vi" Type="VI" URL="../../test/锁死与事件响应测试.vi"/>
+	<Item Name="信息流测试(子VI).vi" Type="VI" URL="../../test/信息流测试(子VI).vi"/>
+	<Item Name="信息流测试-使用控件（成功）.ctl" Type="VI" URL="../../test/信息流测试-使用控件（成功）.ctl"/>
+	<Item Name="信息流测试-使用控件（成功）.vi" Type="VI" URL="../../test/信息流测试-使用控件（成功）.vi"/>
+	<Item Name="引用测试.vi" Type="VI" URL="../../test/引用测试.vi"/>
+	<Item Name="语句解析测试.vi" Type="VI" URL="../../test/语句解析测试.vi"/>
+	<Item Name="字符串匹配测试.vi" Type="VI" URL="../../test/字符串匹配测试.vi"/>
 </Library>

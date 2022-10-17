@@ -39,7 +39,6 @@
 	<Item Name="measure(SubVI).vi" Type="VI" URL="../SubVI/measure(SubVI).vi"/>
 	<Item Name="measure-6221-SR830(SubVI).vi" Type="VI" URL="../SubVI/measure-6221-SR830(SubVI).vi"/>
 	<Item Name="Move to (SubVI).vi" Type="VI" URL="../SubVI/Move to (SubVI).vi"/>
-	<Item Name="R-T.txt" Type="Document" URL="../SubVI/SubVI/R-T.txt"/>
 	<Item Name="scan current(SubVI).vi" Type="VI" URL="../SubVI/scan current(SubVI).vi"/>
 	<Item Name="scan position (SubVI).vi" Type="VI" URL="../SubVI/scan position (SubVI).vi"/>
 	<Item Name="scan time(SubVI).vi" Type="VI" URL="../SubVI/scan time(SubVI).vi"/>
@@ -69,5 +68,6 @@
 	<Item Name="Read 2400 Data (SubVI).vi" Type="VI" URL="../SubVI/Read 2400 Data (SubVI).vi"/>
 	<Item Name="auto sensitivity(SubVI).vi" Type="VI" URL="../SubVI/auto sensitivity(SubVI).vi"/>
 	<Item Name="335 Read and Compressor auto control(SubVI).vi" Type="VI" URL="../SubVI/335 Read and Compressor auto control(SubVI).vi"/>
+	<Item Name="get str without last.vi" Type="VI" URL="../SubVI/get str without last.vi"/>
 	<Item Name="Get 2400 output.vi" Type="VI" URL="../SubVI/Get 2400 output.vi"/>
 </Library>
