@@ -1,0 +1,75 @@
+[Header]
+; Displex Transport Data File (default extension .dat)
+; Copyright 2016, Hechang LEI, hlei@ruc.edu.cn. All rights reserved.
+BYAPP, Displex, 2.0
+INFO, quantum design, Release 2.0.
+INFO, Channel 1, Temperature Sensor
+INFO, Sample 1 Length (cm): 0.000000; Width (cm): 0.000000; Thickness (cm): 0.000000. 
+
+[Data]
+Timestamp(s),Temp(K),Field(Oe),source(A),R(V),R(ohm)
+3749206224.085000,300.000000,TemperatureUnknown,0.000000,MagnetUnknown,ChamberUnknown
+3749206254.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206284.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206314.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206344.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206374.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206404.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206434.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206464.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206494.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206524.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206554.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206584.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206614.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206644.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206674.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206704.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206734.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206764.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206794.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206824.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206854.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206884.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206914.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206944.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749206974.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749207004.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749207034.085000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749207064.085000,300.000000,Near,0.000000,StablePersistent,Sealed
+3749207155.324000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749207185.324000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749207221.690000,300.000000,Near,0.000000,StablePersistent,Sealed
+3749207251.690000,300.000000,Near,0.000000,StablePersistent,Sealed
+3749207281.690000,300.000000,Near,0.000000,StablePersistent,Sealed
+3749207477.956000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749207507.956000,300.000000,Stable,0.000000,StablePersistent,Sealed
+3749207537.956000,300.000000,Near,0.000000,StablePersistent,Sealed
+3749207567.956000,300.000000,Near,0.000000,StablePersistent,Sealed
+3749207597.956000,300.000000,Near,0.000000,StablePersistent,Sealed
+3749207627.956000,299.150208,Near,0.000000,StablePersistent,Sealed
+3749207636.215000,298.700317,Tracking,0.000000,StablePersistent,Sealed
+3749207745.598000,293.251648,Tracking,0.000000,StablePersistent,Sealed
+3749208030.704000,279.005127,Tracking,0.000000,StablePersistent,Sealed
+3749208060.704000,278.805176,Tracking,0.000000,StablePersistent,Sealed
+3749208090.704000,277.305542,Tracking,0.000000,StablePersistent,Sealed
+3749208120.704000,278.805176,Tracking,0.000000,StablePersistent,Sealed
+3749208150.704000,280.304810,Tracking,0.000000,StablePersistent,Sealed
+3749208180.704000,281.000000,Tracking,0.000000,StablePersistent,Sealed
+3749208210.704000,281.000000,Near,0.000000,StablePersistent,Sealed
+3749208240.704000,279.750305,Near,0.000000,StablePersistent,Sealed
+3749208270.704000,278.250671,Tracking,0.000000,StablePersistent,Sealed
+3749208300.704000,276.751038,Tracking,0.000000,StablePersistent,Sealed
+3749208330.704000,275.251404,Tracking,0.000000,StablePersistent,Sealed
+3749208360.704000,273.751770,Tracking,0.000000,StablePersistent,Sealed
+3749208390.704000,272.252136,Tracking,0.000000,StablePersistent,Sealed
+3749208420.704000,270.752502,Tracking,0.000000,StablePersistent,Sealed
+3749208499.183000,266.803467,Tracking,0.000000,StablePersistent,Sealed
+3749208529.183000,265.303833,Tracking,0.000000,StablePersistent,Sealed
+3749208559.183000,263.804199,Tracking,0.000000,StablePersistent,Sealed
+3749208589.183000,262.304565,Tracking,0.000000,StablePersistent,Sealed
+3749208598.272000,261.854675,Tracking,0.000000,StablePersistent,Sealed
+3749208638.014000,259.855164,Tracking,0.000000,StablePersistent,Sealed
+3749208668.014000,259.105347,Tracking,0.000000,StablePersistent,Sealed
+3749208698.014000,260.000000,Tracking,0.000000,StablePersistent,Sealed
+3749208728.014000,260.000000,Near,0.000000,StablePersistent,Sealed
