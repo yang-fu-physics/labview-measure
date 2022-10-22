@@ -383,6 +383,7 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="show figure (SubVI).vi" Type="VI" URL="../SubVI/SubVI/show figure (SubVI).vi"/>
+			<Item Name="wait for status change (SubVI).vi" Type="VI" URL="../SubVI/9T cmag/wait for status change (SubVI).vi"/>
 			<Item Name="控件 1.ctl" Type="VI" URL="../SubVI/控件 1.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
