@@ -13,7 +13,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
 	<Property Name="OdbcBooleanLoggingTableName" Type="Str">NI_VARIABLE_BOOLEAN</Property>
 	<Property Name="OdbcConnectionRadio" Type="UInt">0</Property>
@@ -31,43 +30,44 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="335 Read and Compressor auto control(SubVI).vi" Type="VI" URL="../SubVI/335 Read and Compressor auto control(SubVI).vi"/>
+	<Item Name="335 set Temp(SubVI).vi" Type="VI" URL="../SubVI/335 set Temp(SubVI).vi"/>
+	<Item Name="auto sensitivity(SubVI).vi" Type="VI" URL="../SubVI/auto sensitivity(SubVI).vi"/>
+	<Item Name="config_file(SubVI).vi" Type="VI" URL="../SubVI/config_file(SubVI).vi"/>
+	<Item Name="Configure Output without compliance.vi" Type="VI" URL="../SubVI/Configure Output without compliance.vi"/>
 	<Item Name="data load(SubVI).vi" Type="VI" URL="../SubVI/data load(SubVI).vi"/>
 	<Item Name="Delta measure (SubVI).vi" Type="VI" URL="../SubVI/Delta measure (SubVI).vi"/>
+	<Item Name="Get 335 Main Temp(SubVI).vi" Type="VI" URL="../SubVI/Get 335 Main Temp(SubVI).vi"/>
+	<Item Name="Get 2400 output.vi" Type="VI" URL="../SubVI/Get 2400 output.vi"/>
+	<Item Name="Get All Instrument Value(SubVI).vi" Type="VI" URL="../SubVI/Get All Instrument Value(SubVI).vi"/>
 	<Item Name="get poisition.vi" Type="VI" URL="../SubVI/get poisition.vi"/>
+	<Item Name="Get qd Temp (rotate and normal) (SubVI).vi" Type="VI" URL="../SubVI/Get qd Temp (rotate and normal) (SubVI).vi"/>
+	<Item Name="Get Rotate Temp(SubVI).vi" Type="VI" URL="../SubVI/Get Rotate Temp(SubVI).vi"/>
+	<Item Name="get str without last.vi" Type="VI" URL="../SubVI/get str without last.vi"/>
 	<Item Name="initalize delta(SubVI).vi" Type="VI" URL="../SubVI/initalize delta(SubVI).vi"/>
+	<Item Name="initalize gating(SubVI).vi" Type="VI" URL="../SubVI/initalize gating(SubVI).vi"/>
 	<Item Name="Initalize SR830(SubVI).vi" Type="VI" URL="../SubVI/Initalize SR830(SubVI).vi"/>
+	<Item Name="log save.vi" Type="VI" URL="../SubVI/log save.vi"/>
 	<Item Name="measure(SubVI).vi" Type="VI" URL="../SubVI/measure(SubVI).vi"/>
 	<Item Name="measure-6221-SR830(SubVI).vi" Type="VI" URL="../SubVI/measure-6221-SR830(SubVI).vi"/>
 	<Item Name="Move to (SubVI).vi" Type="VI" URL="../SubVI/Move to (SubVI).vi"/>
+	<Item Name="Read 2400 Data (SubVI).vi" Type="VI" URL="../SubVI/Read 2400 Data (SubVI).vi"/>
+	<Item Name="Save Data (SubVI).vi" Type="VI" URL="../SubVI/Save Data (SubVI).vi"/>
 	<Item Name="scan current(SubVI).vi" Type="VI" URL="../SubVI/scan current(SubVI).vi"/>
 	<Item Name="scan position (SubVI).vi" Type="VI" URL="../SubVI/scan position (SubVI).vi"/>
 	<Item Name="scan time(SubVI).vi" Type="VI" URL="../SubVI/scan time(SubVI).vi"/>
+	<Item Name="Set Current (SubVI).vi" Type="VI" URL="../SubVI/Set Current (SubVI).vi"/>
 	<Item Name="set delta level(SubVI).vi" Type="VI" URL="../SubVI/set delta level(SubVI).vi"/>
 	<Item Name="set gating.vi" Type="VI" URL="../SubVI/set gating.vi"/>
 	<Item Name="set poisition.vi" Type="VI" URL="../SubVI/set poisition.vi"/>
+	<Item Name="Set Sin Wava source (SubVI).vi" Type="VI" URL="../SubVI/Set Sin Wava source (SubVI).vi"/>
+	<Item Name="Set SR830 source (SubVI).vi" Type="VI" URL="../SubVI/Set SR830 source (SubVI).vi"/>
 	<Item Name="setpoint(SubVI).vi" Type="VI" URL="../SubVI/setpoint(SubVI).vi"/>
+	<Item Name="show figure (SubVI).vi" Type="VI" URL="../SubVI/show figure (SubVI).vi"/>
 	<Item Name="SR830 single initalize.vi" Type="VI" URL="../SubVI/SR830 single initalize.vi"/>
 	<Item Name="SR830-value-to-str(SubVI).vi" Type="VI" URL="../SubVI/SR830-value-to-str(SubVI).vi"/>
 	<Item Name="string front part.vi" Type="VI" URL="../SubVI/string front part.vi"/>
 	<Item Name="sweep(SubVI).vi" Type="VI" URL="../SubVI/sweep(SubVI).vi"/>
-	<Item Name="WaitFor(abort).vi" Type="VI" URL="../SubVI/WaitFor(abort).vi"/>
-	<Item Name="Set SR830 source (SubVI).vi" Type="VI" URL="../SubVI/Set SR830 source (SubVI).vi"/>
-	<Item Name="Set Sin Wava source (SubVI).vi" Type="VI" URL="../SubVI/Set Sin Wava source (SubVI).vi"/>
-	<Item Name="Set Current (SubVI).vi" Type="VI" URL="../SubVI/Set Current (SubVI).vi"/>
-	<Item Name="log save.vi" Type="VI" URL="../SubVI/log save.vi"/>
-	<Item Name="Save Data (SubVI).vi" Type="VI" URL="../SubVI/Save Data (SubVI).vi"/>
-	<Item Name="Get Rotate Temp(SubVI).vi" Type="VI" URL="../SubVI/Get Rotate Temp(SubVI).vi"/>
-	<Item Name="Get qd Temp (rotate and normal) (SubVI).vi" Type="VI" URL="../SubVI/Get qd Temp (rotate and normal) (SubVI).vi"/>
-	<Item Name="Get All Instrument Value(SubVI).vi" Type="VI" URL="../SubVI/Get All Instrument Value(SubVI).vi"/>
-	<Item Name="config_file(SubVI).vi" Type="VI" URL="../SubVI/config_file(SubVI).vi"/>
 	<Item Name="wait for 335(SubVI).vi" Type="VI" URL="../SubVI/wait for 335(SubVI).vi"/>
-	<Item Name="335 set Temp(SubVI).vi" Type="VI" URL="../SubVI/335 set Temp(SubVI).vi"/>
-	<Item Name="Get 335 Main Temp(SubVI).vi" Type="VI" URL="../SubVI/Get 335 Main Temp(SubVI).vi"/>
-	<Item Name="initalize gating(SubVI).vi" Type="VI" URL="../SubVI/initalize gating(SubVI).vi"/>
-	<Item Name="Configure Output without compliance.vi" Type="VI" URL="../SubVI/Configure Output without compliance.vi"/>
-	<Item Name="Read 2400 Data (SubVI).vi" Type="VI" URL="../SubVI/Read 2400 Data (SubVI).vi"/>
-	<Item Name="auto sensitivity(SubVI).vi" Type="VI" URL="../SubVI/auto sensitivity(SubVI).vi"/>
-	<Item Name="335 Read and Compressor auto control(SubVI).vi" Type="VI" URL="../SubVI/335 Read and Compressor auto control(SubVI).vi"/>
-	<Item Name="get str without last.vi" Type="VI" URL="../SubVI/get str without last.vi"/>
-	<Item Name="Get 2400 output.vi" Type="VI" URL="../SubVI/Get 2400 output.vi"/>
+	<Item Name="WaitFor(abort).vi" Type="VI" URL="../SubVI/WaitFor(abort).vi"/>
 </Library>
