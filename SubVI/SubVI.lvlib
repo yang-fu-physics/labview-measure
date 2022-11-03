@@ -56,6 +56,7 @@
 	<Item Name="scan current(SubVI).vi" Type="VI" URL="../SubVI/scan current(SubVI).vi"/>
 	<Item Name="scan position (SubVI).vi" Type="VI" URL="../SubVI/scan position (SubVI).vi"/>
 	<Item Name="scan time(SubVI).vi" Type="VI" URL="../SubVI/scan time(SubVI).vi"/>
+	<Item Name="Set ch (SubVI).vi" Type="VI" URL="../SubVI/Set ch (SubVI).vi"/>
 	<Item Name="Set Current (SubVI).vi" Type="VI" URL="../SubVI/Set Current (SubVI).vi"/>
 	<Item Name="set delta level(SubVI).vi" Type="VI" URL="../SubVI/set delta level(SubVI).vi"/>
 	<Item Name="set gating.vi" Type="VI" URL="../SubVI/set gating.vi"/>
