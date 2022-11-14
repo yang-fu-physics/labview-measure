@@ -23,7 +23,8 @@
 	<Item Name="add set gating(SubVI).vi" Type="VI" URL="../Add Seq/add set gating(SubVI).vi"/>
 	<Item Name="add set position(SubVI).vi" Type="VI" URL="../Add Seq/add set position(SubVI).vi"/>
 	<Item Name="add set temp(SubVI).vi" Type="VI" URL="../Add Seq/add set temp(SubVI).vi"/>
-	<Item Name="add SR830(SubVI).vi" Type="VI" URL="../Add Seq/add SR830(SubVI).vi"/>
+	<Item Name="add SR830 initalize(SubVI).vi" Type="VI" URL="../Add Seq/add SR830 initalize(SubVI).vi"/>
 	<Item Name="add wait(SubVI).vi" Type="VI" URL="../Add Seq/add wait(SubVI).vi"/>
 	<Item Name="add delta delay(SubVI).vi" Type="VI" URL="../Add Seq/add delta delay(SubVI).vi"/>
+	<Item Name="add 6221-2182-DC initalize(SubVI).vi" Type="VI" URL="../Add Seq/add 6221-2182-DC initalize(SubVI).vi"/>
 </Library>

@@ -34,21 +34,24 @@
 	<Item Name="335 set Temp(SubVI).vi" Type="VI" URL="../SubVI/335 set Temp(SubVI).vi"/>
 	<Item Name="auto sensitivity(SubVI).vi" Type="VI" URL="../SubVI/auto sensitivity(SubVI).vi"/>
 	<Item Name="config_file(SubVI).vi" Type="VI" URL="../SubVI/config_file(SubVI).vi"/>
-	<Item Name="Configure Output without compliance.vi" Type="VI" URL="../SubVI/Configure Output without compliance.vi"/>
+	<Item Name="Configure 2400 Output without compliance.vi" Type="VI" URL="../SubVI/Configure 2400 Output without compliance.vi"/>
 	<Item Name="data load(SubVI).vi" Type="VI" URL="../SubVI/data load(SubVI).vi"/>
 	<Item Name="Delta measure (SubVI).vi" Type="VI" URL="../SubVI/Delta measure (SubVI).vi"/>
 	<Item Name="Get 335 Main Temp(SubVI).vi" Type="VI" URL="../SubVI/Get 335 Main Temp(SubVI).vi"/>
+	<Item Name="Get 2182 reading from 6221.vi" Type="VI" URL="../SubVI/Get 2182 reading from 6221.vi"/>
 	<Item Name="Get 2400 output.vi" Type="VI" URL="../SubVI/Get 2400 output.vi"/>
 	<Item Name="Get All Instrument Value(SubVI).vi" Type="VI" URL="../SubVI/Get All Instrument Value(SubVI).vi"/>
 	<Item Name="get poisition.vi" Type="VI" URL="../SubVI/get poisition.vi"/>
 	<Item Name="Get qd Temp (rotate and normal) (SubVI).vi" Type="VI" URL="../SubVI/Get qd Temp (rotate and normal) (SubVI).vi"/>
 	<Item Name="Get Rotate Temp(SubVI).vi" Type="VI" URL="../SubVI/Get Rotate Temp(SubVI).vi"/>
 	<Item Name="get str without last.vi" Type="VI" URL="../SubVI/get str without last.vi"/>
+	<Item Name="initalize 6221-2182-dc(SubVI).vi" Type="VI" URL="../SubVI/initalize 6221-2182-dc(SubVI).vi"/>
 	<Item Name="initalize delta(SubVI).vi" Type="VI" URL="../SubVI/initalize delta(SubVI).vi"/>
 	<Item Name="initalize gating(SubVI).vi" Type="VI" URL="../SubVI/initalize gating(SubVI).vi"/>
 	<Item Name="Initalize SR830(SubVI).vi" Type="VI" URL="../SubVI/Initalize SR830(SubVI).vi"/>
 	<Item Name="log save.vi" Type="VI" URL="../SubVI/log save.vi"/>
 	<Item Name="measure(SubVI).vi" Type="VI" URL="../SubVI/measure(SubVI).vi"/>
+	<Item Name="measure-6221-2182-DC(SubVI).vi" Type="VI" URL="../SubVI/measure-6221-2182-DC(SubVI).vi"/>
 	<Item Name="measure-6221-SR830(SubVI).vi" Type="VI" URL="../SubVI/measure-6221-SR830(SubVI).vi"/>
 	<Item Name="Move to (SubVI).vi" Type="VI" URL="../SubVI/Move to (SubVI).vi"/>
 	<Item Name="Read 2400 Data (SubVI).vi" Type="VI" URL="../SubVI/Read 2400 Data (SubVI).vi"/>
