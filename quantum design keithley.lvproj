@@ -273,6 +273,9 @@
 			<Item Name="SubVI.lvlib" Type="Library" URL="../SubVI/SubVI.lvlib"/>
 			<Item Name="Take Seq.lvlib" Type="Library" URL="../SubVI/Take Seq.lvlib"/>
 			<Item Name="test.lvlib" Type="Library" URL="../SubVI/test.lvlib"/>
+			<Item Name="initialize.lvlib" Type="Library" URL="../SubVI/SubVI/initialize.lvlib"/>
+			<Item Name="Get value.lvlib" Type="Library" URL="../SubVI/SubVI/Get value.lvlib"/>
+			<Item Name="Scan.lvlib" Type="Library" URL="../SubVI/SubVI/Scan.lvlib"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
