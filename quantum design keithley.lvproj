@@ -277,7 +277,10 @@
 			<Item Name="Get value.lvlib" Type="Library" URL="../SubVI/SubVI/Get value.lvlib"/>
 			<Item Name="Scan.lvlib" Type="Library" URL="../SubVI/SubVI/Scan.lvlib"/>
 		</Item>
+		<Item Name="Keithley 24XX Read Single.vi" Type="VI" URL="../lib/Keithley 24XX/Examples/Keithley 24XX Read Single.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="SR830-reserve.vi" Type="VI" URL="../SubVI/SubVI/SR830-reserve.vi"/>
+		<Item Name="SR830-sensitivity.vi" Type="VI" URL="../SubVI/SubVI/SR830-sensitivity.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>
@@ -372,6 +375,7 @@
 				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
