@@ -1,0 +1,17 @@
+[Header]
+; Displex Transport Data File (default extension .dat)
+; Copyright 2016, Hechang LEI, hlei@ruc.edu.cn. All rights reserved.
+BYAPP, Displex, 2.0
+INFO, quantum design, Release 2.0.
+INFO, Channel 1, Temperature Sensor
+INFO, Sample 1 Length (cm): 0.000000; Width (cm): 0.000000; Thickness (cm): 0.000000. 
+
+[Data]
+Timestamp(s),Temp(K),Field(Oe),source(A),R(V),R(ohm)
+3754990530.280583,400.000000,TemperatureUnknown,0.000000,MagnetUnknown,ChamberUnknown
+3754990560.281147,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3754990590.281286,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3754990620.281439,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3754990650.281520,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3754990680.281569,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3754990710.281619,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
