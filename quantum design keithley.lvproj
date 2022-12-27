@@ -124,7 +124,6 @@
 						<Item Name="4G Utility Clean Up Initia.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Utility Clean Up Initia.vi"/>
 						<Item Name="4G Utility Default Instrum.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Utility Default Instrum.vi"/>
 						<Item Name="4G Write.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Write.vi"/>
-						<Item Name="Simple Error Handler.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/Simple Error Handler.vi"/>
 						<Item Name="4G Revision Query.vi" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/4G Revision Query.vi"/>
 						<Item Name="sweep.ctl" Type="VI" URL="../lib/magnet/4G power supply/4G_LV6_1_rev0.llb/sweep.ctl"/>
 					</Item>
