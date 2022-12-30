@@ -10,3 +10,9 @@ INFO, Sample 1 Length (cm): 0.000000; Width (cm): 0.000000; Thickness (cm): 0.00
 Timestamp(s),Temp(K),Field(Oe),source(A),R(V),R(ohm)
 3755235952.390990,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
 3755235998.353821,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3755242795.228238,400.000000,Tracking,0.000000,MagnetUnknown,ChamberUnknown
+3755242987.370453,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3755243069.140079,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3755243099.140830,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3755243103.355840,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3755243133.355884,400.000000,Tracking,0.000000,Charging,PurgedAndSealed

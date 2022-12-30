@@ -12,11 +12,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ctl" Type="Folder">
+			<Item Name="9T mag field stauts.ctl" Type="VI" URL="../SubVI/9T mag field stauts.ctl"/>
 			<Item Name="335 state.ctl" Type="VI" URL="../SubVI/335 state.ctl"/>
 			<Item Name="config.ctl" Type="VI" URL="../SubVI/config.ctl"/>
 			<Item Name="initialize.ctl" Type="VI" URL="../SubVI/initialize.ctl"/>
 			<Item Name="Instrument Type.ctl" Type="VI" URL="../SubVI/Instrument Type.ctl"/>
 			<Item Name="Instrument.ctl" Type="VI" URL="../SubVI/Instrument.ctl"/>
+			<Item Name="limit.ctl" Type="VI" URL="../SubVI/SubVI/limit.ctl"/>
 		</Item>
 		<Item Name="ex-vi" Type="Folder">
 			<Item Name="6221+2182.vi" Type="VI" URL="../ex-vi/6221+2182.vi"/>
@@ -404,7 +406,6 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="9T mag field stauts.ctl" Type="VI" URL="../SubVI/9T mag field stauts.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>

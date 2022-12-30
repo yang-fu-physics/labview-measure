@@ -47,6 +47,7 @@
 	<Item Name="Set Current (SubVI).vi" Type="VI" URL="../SubVI/Set Current (SubVI).vi"/>
 	<Item Name="set delta level(SubVI).vi" Type="VI" URL="../SubVI/set delta level(SubVI).vi"/>
 	<Item Name="set gating.vi" Type="VI" URL="../SubVI/set gating.vi"/>
+	<Item Name="set limit (子VI).vi" Type="VI" URL="../SubVI/set limit (子VI).vi"/>
 	<Item Name="set poisition.vi" Type="VI" URL="../SubVI/set poisition.vi"/>
 	<Item Name="Set Sin Wava source (SubVI).vi" Type="VI" URL="../SubVI/Set Sin Wava source (SubVI).vi"/>
 	<Item Name="Set SR830 source (SubVI).vi" Type="VI" URL="../SubVI/Set SR830 source (SubVI).vi"/>
@@ -54,6 +55,7 @@
 	<Item Name="SR830 single initalize.vi" Type="VI" URL="../SubVI/SR830 single initalize.vi"/>
 	<Item Name="SR830-value-to-str(SubVI).vi" Type="VI" URL="../SubVI/SR830-value-to-str(SubVI).vi"/>
 	<Item Name="string front part.vi" Type="VI" URL="../SubVI/string front part.vi"/>
+	<Item Name="value to value(limit).vi" Type="VI" URL="../SubVI/value to value(limit).vi"/>
 	<Item Name="wait for 335(SubVI).vi" Type="VI" URL="../SubVI/wait for 335(SubVI).vi"/>
 	<Item Name="WaitFor(abort).vi" Type="VI" URL="../SubVI/WaitFor(abort).vi"/>
 </Library>
