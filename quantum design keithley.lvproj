@@ -282,6 +282,7 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="SR830-reserve.vi" Type="VI" URL="../SubVI/SubVI/SR830-reserve.vi"/>
 		<Item Name="SR830-sensitivity.vi" Type="VI" URL="../SubVI/SubVI/SR830-sensitivity.vi"/>
+		<Item Name="warning.ctl" Type="VI" URL="../SubVI/warning.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>
