@@ -19,6 +19,7 @@
 			<Item Name="Instrument Type.ctl" Type="VI" URL="../SubVI/Instrument Type.ctl"/>
 			<Item Name="Instrument.ctl" Type="VI" URL="../SubVI/Instrument.ctl"/>
 			<Item Name="limit.ctl" Type="VI" URL="../SubVI/SubVI/limit.ctl"/>
+			<Item Name="warning.ctl" Type="VI" URL="../SubVI/warning.ctl"/>
 		</Item>
 		<Item Name="ex-vi" Type="Folder">
 			<Item Name="6221+2182.vi" Type="VI" URL="../ex-vi/6221+2182.vi"/>
@@ -282,7 +283,7 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="SR830-reserve.vi" Type="VI" URL="../SubVI/SubVI/SR830-reserve.vi"/>
 		<Item Name="SR830-sensitivity.vi" Type="VI" URL="../SubVI/SubVI/SR830-sensitivity.vi"/>
-		<Item Name="warning.ctl" Type="VI" URL="../SubVI/warning.ctl"/>
+		<Item Name="warning display.vi" Type="VI" URL="../SubVI/warning display.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>
