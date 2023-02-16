@@ -27,4 +27,5 @@
 	<Item Name="add wait(SubVI).vi" Type="VI" URL="../Add Seq/add wait(SubVI).vi"/>
 	<Item Name="add delta delay(SubVI).vi" Type="VI" URL="../Add Seq/add delta delay(SubVI).vi"/>
 	<Item Name="add 6221-2182-DC initalize(SubVI).vi" Type="VI" URL="../Add Seq/add 6221-2182-DC initalize(SubVI).vi"/>
+	<Item Name="add dual gating initalize(SubVI).vi" Type="VI" URL="../Add Seq/add dual gating initalize(SubVI).vi"/>
 </Library>

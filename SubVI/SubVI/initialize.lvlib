@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="initalize 6221-2182-dc(SubVI).vi" Type="VI" URL="../initalize 6221-2182-dc(SubVI).vi"/>
 	<Item Name="initalize delta(SubVI).vi" Type="VI" URL="../initalize delta(SubVI).vi"/>
+	<Item Name="initalize dual gating(SubVI).vi" Type="VI" URL="../initalize dual gating(SubVI).vi"/>
 	<Item Name="initalize gating(SubVI).vi" Type="VI" URL="../initalize gating(SubVI).vi"/>
 	<Item Name="Initalize SR830(SubVI).vi" Type="VI" URL="../Initalize SR830(SubVI).vi"/>
 </Library>

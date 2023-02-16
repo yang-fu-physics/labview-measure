@@ -8,6 +8,14 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.1.1.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Examples" Type="Folder">
+		<Item Name="Keithley 2600 Series Current Sweep Script.vi" Type="VI" URL="../Examples/Keithley 2600 Series Current Sweep Script.vi"/>
+		<Item Name="Keithley 2600 Series Generate Pulse With Voltage Protection Level.vi" Type="VI" URL="../Examples/Keithley 2600 Series Generate Pulse With Voltage Protection Level.vi"/>
+		<Item Name="Keithley 2600 Series Read Current Measurement.vi" Type="VI" URL="../Examples/Keithley 2600 Series Read Current Measurement.vi"/>
+		<Item Name="Keithley 2600 Series Read Pulsed Voltage Measurement.vi" Type="VI" URL="../Examples/Keithley 2600 Series Read Pulsed Voltage Measurement.vi"/>
+		<Item Name="Keithley 2600 Series Read Resistance Measurement.vi" Type="VI" URL="../Examples/Keithley 2600 Series Read Resistance Measurement.vi"/>
+		<Item Name="Keithley 2600 Series.bin3" Type="Document" URL="../Examples/Keithley 2600 Series.bin3"/>
+	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Action-Status" Type="Folder">

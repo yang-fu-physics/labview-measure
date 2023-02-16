@@ -8,6 +8,7 @@
 	<Item Name="Get 335 Main Temp(SubVI).vi" Type="VI" URL="../Get 335 Main Temp(SubVI).vi"/>
 	<Item Name="Get 2182 reading from 6221.vi" Type="VI" URL="../Get 2182 reading from 6221.vi"/>
 	<Item Name="Get 2400 output.vi" Type="VI" URL="../Get 2400 output.vi"/>
+	<Item Name="Get 2614B value.vi" Type="VI" URL="../../Get 2614B value.vi"/>
 	<Item Name="Get All Instrument Value(SubVI).vi" Type="VI" URL="../Get All Instrument Value(SubVI).vi"/>
 	<Item Name="get poisition.vi" Type="VI" URL="../get poisition.vi"/>
 	<Item Name="Get qd Temp (rotate and normal) (SubVI).vi" Type="VI" URL="../Get qd Temp (rotate and normal) (SubVI).vi"/>

@@ -58,4 +58,5 @@
 	<Item Name="value to value(limit).vi" Type="VI" URL="../SubVI/value to value(limit).vi"/>
 	<Item Name="wait for 335(SubVI).vi" Type="VI" URL="../SubVI/wait for 335(SubVI).vi"/>
 	<Item Name="WaitFor(abort).vi" Type="VI" URL="../SubVI/WaitFor(abort).vi"/>
+	<Item Name="warning display.vi" Type="VI" URL="../warning display.vi"/>
 </Library>
