@@ -53,6 +53,8 @@
 	<Item Name="Set SR830 source (SubVI).vi" Type="VI" URL="../SubVI/Set SR830 source (SubVI).vi"/>
 	<Item Name="show figure (SubVI).vi" Type="VI" URL="../SubVI/show figure (SubVI).vi"/>
 	<Item Name="SR830 single initalize.vi" Type="VI" URL="../SubVI/SR830 single initalize.vi"/>
+	<Item Name="SR830-reserve.vi" Type="VI" URL="../SubVI/SR830-reserve.vi"/>
+	<Item Name="SR830-sensitivity.vi" Type="VI" URL="../SubVI/SR830-sensitivity.vi"/>
 	<Item Name="SR830-value-to-str(SubVI).vi" Type="VI" URL="../SubVI/SR830-value-to-str(SubVI).vi"/>
 	<Item Name="string front part.vi" Type="VI" URL="../SubVI/string front part.vi"/>
 	<Item Name="value to value(limit).vi" Type="VI" URL="../SubVI/value to value(limit).vi"/>

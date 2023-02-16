@@ -103,5 +103,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
 	</Item>
+	<Item Name="Keithley 24XX Read Single.vi" Type="VI" URL="../Examples/Keithley 24XX Read Single.vi"/>
 	<Item Name="Keithley 24XX Readme.html" Type="Document" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX Readme.html"/>
 </Library>

@@ -279,10 +279,8 @@
 			<Item Name="Get value.lvlib" Type="Library" URL="../SubVI/SubVI/Get value.lvlib"/>
 			<Item Name="Scan.lvlib" Type="Library" URL="../SubVI/SubVI/Scan.lvlib"/>
 		</Item>
-		<Item Name="Keithley 24XX Read Single.vi" Type="VI" URL="../lib/Keithley 24XX/Examples/Keithley 24XX Read Single.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="SR830-reserve.vi" Type="VI" URL="../SubVI/SubVI/SR830-reserve.vi"/>
-		<Item Name="SR830-sensitivity.vi" Type="VI" URL="../SubVI/SubVI/SR830-sensitivity.vi"/>
+		<Item Name="Quey SR830 sensitivity.vi" Type="VI" URL="../SubVI/Add Seq/Quey SR830 sensitivity.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>
