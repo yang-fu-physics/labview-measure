@@ -8,6 +8,7 @@
 	<Item Name="Delta range (seq) (SubVI).vi" Type="VI" URL="../Take Seq/Delta range (seq) (SubVI).vi"/>
 	<Item Name="Initalize (seq）(SubVI).vi" Type="VI" URL="../Take Seq/Initalize (seq）(SubVI).vi"/>
 	<Item Name="log header (seq) (SubVI).vi" Type="VI" URL="../Take Seq/log header (seq) (SubVI).vi"/>
+	<Item Name="Move to (SubVI).vi" Type="VI" URL="../SubVI/Move to (SubVI).vi"/>
 	<Item Name="Scan Field str (SubVI).vi" Type="VI" URL="../Take Seq/Scan Field str (SubVI).vi"/>
 	<Item Name="Scan Temp str (SubVI).vi" Type="VI" URL="../Take Seq/Scan Temp str (SubVI).vi"/>
 	<Item Name="Scan Time (str) (SubVI).vi" Type="VI" URL="../Take Seq/Scan Time (str) (SubVI).vi"/>

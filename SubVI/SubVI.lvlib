@@ -33,7 +33,6 @@
 	<Item Name="335 set Temp(SubVI).vi" Type="VI" URL="../SubVI/335 set Temp(SubVI).vi"/>
 	<Item Name="auto sensitivity(SubVI).vi" Type="VI" URL="../SubVI/auto sensitivity(SubVI).vi"/>
 	<Item Name="config_file(SubVI).vi" Type="VI" URL="../SubVI/config_file(SubVI).vi"/>
-	<Item Name="Configure 2400 Output without compliance.vi" Type="VI" URL="../SubVI/Configure 2400 Output without compliance.vi"/>
 	<Item Name="data load(SubVI).vi" Type="VI" URL="../SubVI/data load(SubVI).vi"/>
 	<Item Name="Delta measure (SubVI).vi" Type="VI" URL="../SubVI/Delta measure (SubVI).vi"/>
 	<Item Name="get str without last.vi" Type="VI" URL="../SubVI/get str without last.vi"/>
@@ -41,7 +40,6 @@
 	<Item Name="measure(SubVI).vi" Type="VI" URL="../SubVI/measure(SubVI).vi"/>
 	<Item Name="measure-6221-2182-DC(SubVI).vi" Type="VI" URL="../SubVI/measure-6221-2182-DC(SubVI).vi"/>
 	<Item Name="measure-6221-SR830(SubVI).vi" Type="VI" URL="../SubVI/measure-6221-SR830(SubVI).vi"/>
-	<Item Name="Move to (SubVI).vi" Type="VI" URL="../SubVI/Move to (SubVI).vi"/>
 	<Item Name="Save Data (SubVI).vi" Type="VI" URL="../SubVI/Save Data (SubVI).vi"/>
 	<Item Name="Set ch (SubVI).vi" Type="VI" URL="../SubVI/Set ch (SubVI).vi"/>
 	<Item Name="Set Current (SubVI).vi" Type="VI" URL="../SubVI/Set Current (SubVI).vi"/>
@@ -50,15 +48,12 @@
 	<Item Name="set limit (子VI).vi" Type="VI" URL="../SubVI/set limit (子VI).vi"/>
 	<Item Name="set poisition.vi" Type="VI" URL="../SubVI/set poisition.vi"/>
 	<Item Name="Set Sin Wava source (SubVI).vi" Type="VI" URL="../SubVI/Set Sin Wava source (SubVI).vi"/>
-	<Item Name="Set SR830 source (SubVI).vi" Type="VI" URL="../SubVI/Set SR830 source (SubVI).vi"/>
 	<Item Name="show figure (SubVI).vi" Type="VI" URL="../SubVI/show figure (SubVI).vi"/>
 	<Item Name="SR830 single initalize.vi" Type="VI" URL="../SubVI/SR830 single initalize.vi"/>
-	<Item Name="SR830-reserve.vi" Type="VI" URL="../SubVI/SR830-reserve.vi"/>
-	<Item Name="SR830-sensitivity.vi" Type="VI" URL="../SubVI/SR830-sensitivity.vi"/>
 	<Item Name="SR830-value-to-str(SubVI).vi" Type="VI" URL="../SubVI/SR830-value-to-str(SubVI).vi"/>
 	<Item Name="string front part.vi" Type="VI" URL="../SubVI/string front part.vi"/>
 	<Item Name="value to value(limit).vi" Type="VI" URL="../SubVI/value to value(limit).vi"/>
 	<Item Name="wait for 335(SubVI).vi" Type="VI" URL="../SubVI/wait for 335(SubVI).vi"/>
 	<Item Name="WaitFor(abort).vi" Type="VI" URL="../SubVI/WaitFor(abort).vi"/>
-	<Item Name="warning display.vi" Type="VI" URL="../warning display.vi"/>
+	<Item Name="warning display.vi" Type="VI" URL="../SubVI/warning display.vi"/>
 </Library>

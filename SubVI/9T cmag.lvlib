@@ -7,9 +7,6 @@
 	<Item Name="9T mag temp-field-chamber wait for.vi" Type="VI" URL="../9T cmag/9T mag temp-field-chamber wait for.vi"/>
 	<Item Name="24C and 4G Read (SubVI).vi" Type="VI" URL="../9T cmag/24C and 4G Read (SubVI).vi"/>
 	<Item Name="get 9T mag stable.vi" Type="VI" URL="../9T cmag/get 9T mag stable.vi"/>
-	<Item Name="get control.vi" Type="VI" URL="../9T cmag/get control.vi"/>
-	<Item Name="Get Ramp.vi" Type="VI" URL="../9T cmag/Get Ramp.vi"/>
-	<Item Name="get setpoint.vi" Type="VI" URL="../9T cmag/get setpoint.vi"/>
 	<Item Name="set 24C temp(SubVI).vi" Type="VI" URL="../9T cmag/set 24C temp(SubVI).vi"/>
 	<Item Name="Set field (linear and oscillate).vi" Type="VI" URL="../9T cmag/Set field (linear and oscillate).vi"/>
 	<Item Name="Set magnet (oscillate).vi" Type="VI" URL="../9T cmag/Set magnet (oscillate).vi"/>
