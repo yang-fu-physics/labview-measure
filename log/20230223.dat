@@ -1,0 +1,45 @@
+[Header]
+; Displex Transport Data File (default extension .dat)
+; Copyright 2016, Hechang LEI, hlei@ruc.edu.cn. All rights reserved.
+BYAPP, Displex, 2.0
+INFO, quantum design, Release 2.0.
+INFO, Channel 1, Temperature Sensor
+INFO, Sample 1 Length (cm): 0.000000; Width (cm): 0.000000; Thickness (cm): 0.000000. 
+
+[Data]
+Timestamp(s),Temp(K),Temp Status,Field(Oe),Field Status,Chamber Status2
+3759996453.477406,400.000000,TemperatureUnknown,0.000000,MagnetUnknown,ChamberUnknown
+3759996483.477931,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759996513.477940,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999668.022039,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999698.022045,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999728.022055,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999758.022105,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999788.023073,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999818.023083,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999848.023093,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999878.023099,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999908.023139,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999938.023330,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999968.023367,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3759999998.024341,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000028.024350,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000058.024377,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000088.024426,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000118.024437,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000148.025387,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000178.025403,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000208.025410,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000238.025414,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000268.025423,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000298.025433,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000328.025446,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000358.025449,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000388.025458,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000567.997114,400.000000,TemperatureUnknown,0.000000,MagnetUnknown,ChamberUnknown
+3760000597.997125,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000714.062049,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000744.062093,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000797.169186,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000841.105165,400.000000,Tracking,0.000000,Charging,PurgedAndSealed
+3760000848.689807,400.000000,Tracking,0.000000,Charging,PurgedAndSealed

@@ -4,9 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="scan current(SubVI).vi" Type="VI" URL="../scan current(SubVI).vi"/>
-	<Item Name="scan position (SubVI).vi" Type="VI" URL="../scan position (SubVI).vi"/>
-	<Item Name="scan time(SubVI).vi" Type="VI" URL="../scan time(SubVI).vi"/>
-	<Item Name="setpoint(SubVI).vi" Type="VI" URL="../setpoint(SubVI).vi"/>
-	<Item Name="sweep(SubVI).vi" Type="VI" URL="../sweep(SubVI).vi"/>
+	<Item Name="scan current(SubVI).vi" Type="VI" URL="../SubVI/scan current(SubVI).vi"/>
+	<Item Name="scan position (SubVI).vi" Type="VI" URL="../SubVI/scan position (SubVI).vi"/>
+	<Item Name="scan time(SubVI).vi" Type="VI" URL="../SubVI/scan time(SubVI).vi"/>
+	<Item Name="setpoint(SubVI).vi" Type="VI" URL="../SubVI/setpoint(SubVI).vi"/>
+	<Item Name="sweep(SubVI).vi" Type="VI" URL="../SubVI/sweep(SubVI).vi"/>
 </Library>
