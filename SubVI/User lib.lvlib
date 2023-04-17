@@ -12,6 +12,7 @@
 	<Item Name="get poisition.vi" Type="VI" URL="../User lib/get poisition.vi"/>
 	<Item Name="Get Rotate Temp(SubVI).vi" Type="VI" URL="../User lib/Get Rotate Temp(SubVI).vi"/>
 	<Item Name="Quey 2400 output.vi" Type="VI" URL="../User lib/Quey 2400 output.vi"/>
+	<Item Name="Quey 2400 set voltage.vi" Type="VI" URL="../User lib/Quey 2400 set voltage.vi"/>
 	<Item Name="Quey SR830 sensitivity.vi" Type="VI" URL="../User lib/Quey SR830 sensitivity.vi"/>
 	<Item Name="Set SR830 source (SubVI).vi" Type="VI" URL="../User lib/Set SR830 source (SubVI).vi"/>
 	<Item Name="SR830-reserve.vi" Type="VI" URL="../User lib/SR830-reserve.vi"/>
