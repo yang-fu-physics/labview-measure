@@ -280,8 +280,8 @@
 			<Item Name="Get value.lvlib" Type="Library" URL="../SubVI/Get value.lvlib"/>
 			<Item Name="Scan.lvlib" Type="Library" URL="../SubVI/Scan.lvlib"/>
 			<Item Name="User lib.lvlib" Type="Library" URL="../SubVI/User lib.lvlib"/>
+			<Item Name="nematic.lvlib" Type="Library" URL="../SubVI/nematic.lvlib"/>
 		</Item>
-		<Item Name="Keithley 24XX Sweep and Acquire Measurements.vi" Type="VI" URL="../lib/Keithley 24XX/Examples/Keithley 24XX Sweep and Acquire Measurements.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

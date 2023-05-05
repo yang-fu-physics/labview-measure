@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="335 log(SubVI).vi" Type="VI" URL="../SubVI/335 log(SubVI).vi"/>
 	<Item Name="335 Read and Compressor auto control(SubVI).vi" Type="VI" URL="../SubVI/335 Read and Compressor auto control(SubVI).vi"/>
 	<Item Name="Get 335 Main Temp(SubVI).vi" Type="VI" URL="../SubVI/Get 335 Main Temp(SubVI).vi"/>
 	<Item Name="Get 2614B value.vi" Type="VI" URL="../SubVI/Get 2614B value.vi"/>
