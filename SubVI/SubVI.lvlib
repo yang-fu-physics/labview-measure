@@ -35,6 +35,7 @@
 	<Item Name="config_file(SubVI).vi" Type="VI" URL="../SubVI/config_file(SubVI).vi"/>
 	<Item Name="data load(SubVI).vi" Type="VI" URL="../SubVI/data load(SubVI).vi"/>
 	<Item Name="Delta measure (SubVI).vi" Type="VI" URL="../SubVI/Delta measure (SubVI).vi"/>
+	<Item Name="Get Gating Data.vi" Type="VI" URL="../SubVI/Get Gating Data.vi"/>
 	<Item Name="get str without last.vi" Type="VI" URL="../SubVI/get str without last.vi"/>
 	<Item Name="log save.vi" Type="VI" URL="../SubVI/log save.vi"/>
 	<Item Name="measure(SubVI).vi" Type="VI" URL="../SubVI/measure(SubVI).vi"/>

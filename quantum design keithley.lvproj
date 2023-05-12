@@ -283,7 +283,6 @@
 			<Item Name="nematic.lvlib" Type="Library" URL="../SubVI/nematic.lvlib"/>
 		</Item>
 		<Item Name="Gating type.ctl" Type="VI" URL="../SubVI/ctl/Gating type.ctl"/>
-		<Item Name="Get Gating Data.vi" Type="VI" URL="../SubVI/SubVI/Get Gating Data.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
