@@ -15,6 +15,7 @@
 			<Item Name="9T mag field stauts.ctl" Type="VI" URL="../SubVI/ctl/9T mag field stauts.ctl"/>
 			<Item Name="335 state.ctl" Type="VI" URL="../SubVI/ctl/335 state.ctl"/>
 			<Item Name="config.ctl" Type="VI" URL="../SubVI/ctl/config.ctl"/>
+			<Item Name="Gating type.ctl" Type="VI" URL="../SubVI/ctl/Gating type.ctl"/>
 			<Item Name="initialize.ctl" Type="VI" URL="../SubVI/ctl/initialize.ctl"/>
 			<Item Name="Instrument Type.ctl" Type="VI" URL="../SubVI/ctl/Instrument Type.ctl"/>
 			<Item Name="Instrument.ctl" Type="VI" URL="../SubVI/ctl/Instrument.ctl"/>
@@ -282,7 +283,6 @@
 			<Item Name="User lib.lvlib" Type="Library" URL="../SubVI/User lib.lvlib"/>
 			<Item Name="nematic.lvlib" Type="Library" URL="../SubVI/nematic.lvlib"/>
 		</Item>
-		<Item Name="Gating type.ctl" Type="VI" URL="../SubVI/ctl/Gating type.ctl"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
