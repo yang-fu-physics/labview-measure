@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Item Name="我的电脑" Type="My Computer">
-		<Property Name="NI.SortType" Type="Int">2</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -57,6 +57,34 @@
 				<Item Name="Keith 7001 Send Trigger.vi" Type="VI" URL="../lib/KE7001.LLB/Keith 7001 Send Trigger.vi"/>
 				<Item Name="Keith 7001 Trig Layer Config.vi" Type="VI" URL="../lib/KE7001.LLB/Keith 7001 Trig Layer Config.vi"/>
 				<Item Name="Read SCPI Error Queue (GPIB).vi" Type="VI" URL="../lib/KE7001.LLB/Read SCPI Error Queue (GPIB).vi"/>
+			</Item>
+			<Item Name="Lake Shore 325" Type="Folder">
+				<Item Name="Examples" Type="Folder">
+					<Item Name="Lake Shore 325 Aquire Mutiple Readiings.vi" Type="VI" URL="../lib/Lake Shore 325/Examples/Lake Shore 325 Aquire Mutiple Readiings.vi"/>
+					<Item Name="Lake Shore 325 Configure Control Parameters and Aquire Single Readiing.vi" Type="VI" URL="../lib/Lake Shore 325/Examples/Lake Shore 325 Configure Control Parameters and Aquire Single Readiing.vi"/>
+					<Item Name="Lake Shore 325 Write Curve.vi" Type="VI" URL="../lib/Lake Shore 325/Examples/Lake Shore 325 Write Curve.vi"/>
+					<Item Name="Lake Shore 325.bin3" Type="Document" URL="../lib/Lake Shore 325/Examples/Lake Shore 325.bin3"/>
+				</Item>
+				<Item Name="Private" Type="Folder"/>
+				<Item Name="Public" Type="Folder">
+					<Item Name="Action-Status" Type="Folder">
+						<Item Name="Action-Status.mnu" Type="Document" URL="../lib/Lake Shore 325/Public/Action-Status/Action-Status.mnu"/>
+					</Item>
+					<Item Name="Configure" Type="Folder">
+						<Item Name="Configure.mnu" Type="Document" URL="../lib/Lake Shore 325/Public/Configure/Configure.mnu"/>
+					</Item>
+					<Item Name="Data" Type="Folder">
+						<Item Name="Data.mnu" Type="Document" URL="../lib/Lake Shore 325/Public/Data/Data.mnu"/>
+					</Item>
+					<Item Name="Utility" Type="Folder">
+						<Item Name="Utility.mnu" Type="Document" URL="../lib/Lake Shore 325/Public/Utility/Utility.mnu"/>
+					</Item>
+					<Item Name="dir.mnu" Type="Document" URL="../lib/Lake Shore 325/Public/dir.mnu"/>
+				</Item>
+				<Item Name="Lake Shore 325 Readme.html" Type="Document" URL="../lib/Lake Shore 325/Lake Shore 325 Readme.html"/>
+				<Item Name="Lake Shore 325.aliases" Type="Document" URL="../lib/Lake Shore 325/Lake Shore 325.aliases"/>
+				<Item Name="Lake Shore 325.lvlib" Type="Library" URL="../lib/Lake Shore 325/Lake Shore 325.lvlib"/>
+				<Item Name="Lake Shore 325.lvproj" Type="Document" URL="../lib/Lake Shore 325/Lake Shore 325.lvproj"/>
 			</Item>
 			<Item Name="Lake Shore 335" Type="Folder">
 				<Item Name="Examples" Type="Folder">
@@ -248,15 +276,15 @@
 				</Item>
 			</Item>
 			<Item Name="QDInstrument" Type="Folder">
+				<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
+				<Item Name="GetPPMSItem.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/GetPPMSItem.vi"/>
+				<Item Name="SendPPMSCommand.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/SendPPMSCommand.vi"/>
 				<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
 				<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
 				<Item Name="GetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetPosition.vi"/>
-				<Item Name="GetPPMSItem.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/GetPPMSItem.vi"/>
 				<Item Name="GetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetTemperature.vi"/>
 				<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/OpenQDInstrument.vi"/>
-				<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
 				<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/QDInstrumentExceptionHandler.vi"/>
-				<Item Name="SendPPMSCommand.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/SendPPMSCommand.vi"/>
 				<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
 				<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
 				<Item Name="SetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetPosition.vi"/>

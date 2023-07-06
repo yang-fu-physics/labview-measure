@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="325 Configure setpoint text.vi" Type="VI" URL="../../nematic/325 Configure setpoint text.vi"/>
 	<Item Name="add PZT initalize(SubVI).vi" Type="VI" URL="../Add Seq/add PZT initalize(SubVI).vi"/>
 	<Item Name="add scan PZT at temp.vi" Type="VI" URL="../Add Seq/add scan PZT at temp.vi"/>
 	<Item Name="add scan PZT V(SubVI).vi" Type="VI" URL="../Add Seq/add scan PZT V(SubVI).vi"/>
