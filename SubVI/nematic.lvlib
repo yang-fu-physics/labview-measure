@@ -8,6 +8,7 @@
 	<Item Name="add PZT initalize(SubVI).vi" Type="VI" URL="../Add Seq/add PZT initalize(SubVI).vi"/>
 	<Item Name="add scan PZT at temp.vi" Type="VI" URL="../Add Seq/add scan PZT at temp.vi"/>
 	<Item Name="add scan PZT V(SubVI).vi" Type="VI" URL="../Add Seq/add scan PZT V(SubVI).vi"/>
+	<Item Name="delta&amp;2400 measure.vi" Type="VI" URL="../../nematic/delta&amp;2400 measure.vi"/>
 	<Item Name="Initalize_33522b&amp;2400&amp;Delta_lxy.vi" Type="VI" URL="../Initalize/Initalize_33522b&amp;2400&amp;Delta_lxy.vi"/>
 	<Item Name="meas_1_lxy.vi" Type="VI" URL="../SubVI/meas_1_lxy.vi"/>
 	<Item Name="measure_dc2400_4wire_lxy.vi" Type="VI" URL="../SubVI/measure_dc2400_4wire_lxy.vi"/>
@@ -15,5 +16,6 @@
 	<Item Name="Scan PZT V parameter.vi" Type="VI" URL="../nematic/Scan PZT V parameter.vi"/>
 	<Item Name="scan PZT_V(SubVI).vi" Type="VI" URL="../SubVI/scan PZT_V(SubVI).vi"/>
 	<Item Name="set PZT scan.vi" Type="VI" URL="../nematic/set PZT scan.vi"/>
+	<Item Name="公约数.vi" Type="VI" URL="../../nematic/公约数.vi"/>
 	<Item Name="输入电压dc_1.vi" Type="VI" URL="../nematic/输入电压dc_1.vi"/>
 </Library>

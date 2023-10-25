@@ -12,6 +12,8 @@
 	<Item Name="队列采集速度.vi" Type="VI" URL="../../test/队列采集速度.vi"/>
 	<Item Name="队列测试.vi" Type="VI" URL="../../test/队列测试.vi"/>
 	<Item Name="锁死与事件响应测试.vi" Type="VI" URL="../../test/锁死与事件响应测试.vi"/>
+	<Item Name="未命名 1.vi" Type="VI" URL="../../lxy test/未命名 1.vi"/>
+	<Item Name="未命名 2.vi" Type="VI" URL="../../lxy test/未命名 2.vi"/>
 	<Item Name="信息流测试(子VI).vi" Type="VI" URL="../../test/信息流测试(子VI).vi"/>
 	<Item Name="信息流测试-使用控件（成功）.ctl" Type="VI" URL="../../test/信息流测试-使用控件（成功）.ctl"/>
 	<Item Name="信息流测试-使用控件（成功）.vi" Type="VI" URL="../../test/信息流测试-使用控件（成功）.vi"/>

@@ -30,6 +30,7 @@
 			<Item Name="delta 0.1+7001.vi" Type="VI" URL="../ex-vi/delta 0.1+7001.vi"/>
 			<Item Name="delta 0.1.vi" Type="VI" URL="../ex-vi/delta 0.1.vi"/>
 			<Item Name="Keithley 6517 Relative Measurement.vi" Type="VI" URL="../lib/Keithley 6517/Examples/Keithley 6517 Relative Measurement.vi"/>
+			<Item Name="Modbas TCP test.vi" Type="VI" URL="../ex-vi/Modbas TCP test.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder">
 			<Item Name="KE7001" Type="Folder">
@@ -295,7 +296,6 @@
 			<Item Name="Keithley 622x.lvlib" Type="Library" URL="../lib/Keithley 622x/Keithley 622x.lvlib"/>
 			<Item Name="Keithley 2182.lvlib" Type="Library" URL="../lib/Keithley 2182/Keithley 2182.lvlib"/>
 			<Item Name="Keithley 2600 Series.lvlib" Type="Library" URL="../lib/Keithley 2600 Series/Keithley 2600 Series.lvlib"/>
-			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
 			<Item Name="Stanford Research 830.lvlib" Type="Library" URL="../lib/Stanford Research 830/Stanford Research 830.lvlib"/>
 		</Item>
 		<Item Name="SubVI" Type="Folder">
@@ -310,6 +310,7 @@
 			<Item Name="Scan.lvlib" Type="Library" URL="../SubVI/Scan.lvlib"/>
 			<Item Name="User lib.lvlib" Type="Library" URL="../SubVI/User lib.lvlib"/>
 			<Item Name="nematic.lvlib" Type="Library" URL="../SubVI/nematic.lvlib"/>
+			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
