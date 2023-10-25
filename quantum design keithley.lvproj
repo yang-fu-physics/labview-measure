@@ -21,7 +21,7 @@
 			<Item Name="Instrument.ctl" Type="VI" URL="../SubVI/ctl/Instrument.ctl"/>
 			<Item Name="limit.ctl" Type="VI" URL="../SubVI/ctl/limit.ctl"/>
 			<Item Name="warning.ctl" Type="VI" URL="../SubVI/ctl/warning.ctl"/>
-			<Item Name="控件 1.ctl" Type="VI" URL="../SubVI/ctl/控件 1.ctl"/>
+			<Item Name="控件 1.ctl" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/控件 1.ctl"/>
 		</Item>
 		<Item Name="ex-vi" Type="Folder">
 			<Item Name="6221+2182.vi" Type="VI" URL="../ex-vi/6221+2182.vi"/>
@@ -276,18 +276,55 @@
 					<Item Name="TM624.vi" Type="VI" URL="../lib/magnet/termperature moniter/TM624.vi"/>
 				</Item>
 			</Item>
+			<Item Name="双轴旋转杆" Type="Folder">
+				<Item Name="机械旋转控制子VI" Type="Folder">
+					<Item Name="Rotator Driver" Type="Folder">
+						<Item Name="Break out.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/Rotator Driver.llb/Break out.vi"/>
+						<Item Name="Initialize.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/Rotator Driver.llb/Initialize.vi"/>
+						<Item Name="Read Deg.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/Rotator Driver.llb/Read Deg.vi"/>
+						<Item Name="Return To zero.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/Rotator Driver.llb/Return To zero.vi"/>
+						<Item Name="Set Position.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/Rotator Driver.llb/Set Position.vi"/>
+					</Item>
+					<Item Name="02-旋转样品杆控制上位机顺时针归零.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/02-旋转样品杆控制上位机顺时针归零.vi"/>
+				</Item>
+				<Item Name="压电旋转控制子VI" Type="Folder">
+					<Item Name="1.Note-PZT-Control.txt" Type="Document" URL="../lib/双轴旋转杆/压电旋转控制子VI/1.Note-PZT-Control.txt"/>
+					<Item Name="Global Para.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/Global Para.vi"/>
+					<Item Name="Multi_Motion_Vision_System_Setup.msi" Type="Document" URL="../lib/双轴旋转杆/压电旋转控制子VI/Multi_Motion_Vision_System_Setup.msi"/>
+					<Item Name="PZT capacity set.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT capacity set.vi"/>
+					<Item Name="PZT close channal.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT close channal.vi"/>
+					<Item Name="PZT frequency set.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT frequency set.vi"/>
+					<Item Name="PZT init.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT init.vi"/>
+					<Item Name="PZT move.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT move.vi"/>
+					<Item Name="PZT open channal.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT open channal.vi"/>
+					<Item Name="PZT read position.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT read position.vi"/>
+					<Item Name="PZT read position_rev.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT read position_rev.vi"/>
+					<Item Name="PZT read steps left.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT read steps left.vi"/>
+					<Item Name="PZT Set Position-不回调.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT Set Position-不回调.vi"/>
+					<Item Name="PZT Set Position-精调.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT Set Position-精调.vi"/>
+					<Item Name="PZT Set Position.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT Set Position.vi"/>
+					<Item Name="PZT steporslide.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT steporslide.vi"/>
+					<Item Name="PZT stop.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT stop.vi"/>
+					<Item Name="PZT To Target.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT To Target.vi"/>
+					<Item Name="PZT voltage set.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT voltage set.vi"/>
+					<Item Name="Simple example.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/Simple example.vi"/>
+					<Item Name="串口驱动.zip" Type="Document" URL="../lib/双轴旋转杆/压电旋转控制子VI/串口驱动.zip"/>
+					<Item Name="压电控制器说明书-V3.4.pdf" Type="Document" URL="../lib/双轴旋转杆/压电旋转控制子VI/压电控制器说明书-V3.4.pdf"/>
+				</Item>
+				<Item Name="压电轴注意事项.ppt" Type="Document" URL="../lib/双轴旋转杆/压电轴注意事项.ppt"/>
+			</Item>
 			<Item Name="QDInstrument" Type="Folder">
 				<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
 				<Item Name="GetPPMSItem.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/GetPPMSItem.vi"/>
 				<Item Name="SendPPMSCommand.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/SendPPMSCommand.vi"/>
-				<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
-				<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
+				<Item Name="GetChamber.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/GetChamber.vi"/>
+				<Item Name="GetField.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/GetField.vi"/>
 				<Item Name="GetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetPosition.vi"/>
 				<Item Name="GetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetTemperature.vi"/>
-				<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/OpenQDInstrument.vi"/>
-				<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/QDInstrumentExceptionHandler.vi"/>
-				<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
-				<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
+				<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/OpenQDInstrument.vi"/>
+				<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/QDInstrumentExceptionHandler.vi"/>
+				<Item Name="SetChamber.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/SetChamber.vi"/>
+				<Item Name="SetField.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/SetField.vi"/>
 				<Item Name="SetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetPosition.vi"/>
 				<Item Name="SetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetTemperature.vi"/>
 			</Item>
@@ -423,6 +460,9 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="U16s to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/U16s to Bytes.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -440,6 +480,13 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
+			<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/OpenQDInstrument.vi"/>
+			<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/QDInstrumentExceptionHandler.vi"/>
+			<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
+			<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
+			<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
+			<Item Name="控件 1.ctl" Type="VI" URL="../SubVI/ctl/控件 1.ctl"/>
+			<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">

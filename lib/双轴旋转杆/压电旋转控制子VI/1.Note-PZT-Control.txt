@@ -1,0 +1,19 @@
+1.当前二维旋转杆的Range=342.2°和Origin=95.035°需要在控制器中手动设置，运动限制范围为-50°—210°
+
+2.设置旋转角度和运动至目标角度选择使用PZT Set Position子VI
+
+3.设置移动步数的使用PZT move的子VI，当步数设置为0时表示连续运动
+
+4.设置输出频率使用PZT frequency set的子VI，频率范围为：0-3k Hz
+
+5.设置电压值使用PZT voltage set的子VI，电压范围为：0-200 V
+
+6.读取旋转角度使用PZT read position_rev的子VI或直接使用PZT read position的子VI，里头的读取的是电压值通过输入设置Range和Origin转换为角度
+
+7.关闭所有通道使用PZT close channal的VI
+
+8.选择需要闭合的通道使用PZT open channal的子VI
+
+9.停止位移台运动使用PZT stop的子VI
+
+10.设置位移台运动模式使用PZT steporslide的子VI

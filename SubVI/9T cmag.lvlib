@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="9T mag temp-field-chamber wait for.vi" Type="VI" URL="../9T cmag/9T mag temp-field-chamber wait for.vi"/>
+	<Item Name="9T position.vi" Type="VI" URL="../9T cmag/9T position.vi"/>
 	<Item Name="24C and 4G Read (SubVI).vi" Type="VI" URL="../9T cmag/24C and 4G Read (SubVI).vi"/>
 	<Item Name="get 9T mag stable.vi" Type="VI" URL="../9T cmag/get 9T mag stable.vi"/>
 	<Item Name="set 24C temp(SubVI).vi" Type="VI" URL="../9T cmag/set 24C temp(SubVI).vi"/>
