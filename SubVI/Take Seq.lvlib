@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Cmag Move to (SubVI).vi" Type="VI" URL="../SubVI/Cmag Move to (SubVI).vi"/>
 	<Item Name="Delta delay (seq) (SubVI).vi" Type="VI" URL="../Take Seq/Delta delay (seq) (SubVI).vi"/>
 	<Item Name="Delta range (seq) (SubVI).vi" Type="VI" URL="../Take Seq/Delta range (seq) (SubVI).vi"/>
 	<Item Name="Initalize (seq）(SubVI).vi" Type="VI" URL="../Take Seq/Initalize (seq）(SubVI).vi"/>

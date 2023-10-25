@@ -10,7 +10,9 @@
 	<Item Name="get 9T mag stable.vi" Type="VI" URL="../9T cmag/get 9T mag stable.vi"/>
 	<Item Name="set 24C temp(SubVI).vi" Type="VI" URL="../9T cmag/set 24C temp(SubVI).vi"/>
 	<Item Name="Set field (linear and oscillate).vi" Type="VI" URL="../9T cmag/Set field (linear and oscillate).vi"/>
+	<Item Name="set in plane position.vi" Type="VI" URL="../9T cmag/set in plane position.vi"/>
 	<Item Name="Set magnet (oscillate).vi" Type="VI" URL="../9T cmag/Set magnet (oscillate).vi"/>
 	<Item Name="set magnet.vi" Type="VI" URL="../9T cmag/set magnet.vi"/>
+	<Item Name="set out plane position.vi" Type="VI" URL="../9T cmag/set out plane position.vi"/>
 	<Item Name="wait for status change (SubVI).vi" Type="VI" URL="../9T cmag/wait for status change (SubVI).vi"/>
 </Library>
