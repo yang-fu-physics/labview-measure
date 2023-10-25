@@ -350,6 +350,8 @@
 			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="set out plane position.vi" Type="VI" URL="../SubVI/9T cmag/set out plane position.vi"/>
+		<Item Name="set in plane position.vi" Type="VI" URL="../SubVI/9T cmag/set in plane position.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>
