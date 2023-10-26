@@ -21,7 +21,6 @@
 	<Item Name="add set current(SubVI).vi" Type="VI" URL="../Add Seq/add set current(SubVI).vi"/>
 	<Item Name="add set field(SubVI).vi" Type="VI" URL="../Add Seq/add set field(SubVI).vi"/>
 	<Item Name="add set gating(SubVI).vi" Type="VI" URL="../Add Seq/add set gating(SubVI).vi"/>
-	<Item Name="add set cmag position(SubVI).vi" Type="VI" URL="../Add Seq/add set cmag position(SubVI).vi"/>
 	<Item Name="add set temp(SubVI).vi" Type="VI" URL="../Add Seq/add set temp(SubVI).vi"/>
 	<Item Name="add SR830 initalize(SubVI).vi" Type="VI" URL="../Add Seq/add SR830 initalize(SubVI).vi"/>
 	<Item Name="add wait(SubVI).vi" Type="VI" URL="../Add Seq/add wait(SubVI).vi"/>
@@ -29,6 +28,7 @@
 	<Item Name="add 6221-2182-DC initalize(SubVI).vi" Type="VI" URL="../Add Seq/add 6221-2182-DC initalize(SubVI).vi"/>
 	<Item Name="add dual gating initalize(SubVI).vi" Type="VI" URL="../Add Seq/add dual gating initalize(SubVI).vi"/>
 	<Item Name="add scan gating(SubVI).vi" Type="VI" URL="../Add Seq/add scan gating(SubVI).vi"/>
+	<Item Name="add set cmag position(SubVI).vi" Type="VI" URL="../Add Seq/add set cmag position(SubVI).vi"/>
 	<Item Name="add set position(SubVI).vi" Type="VI" URL="../Add Seq/add set position(SubVI).vi"/>
 	<Item Name="add cmag scan position(SubVI).vi" Type="VI" URL="../Add Seq/add cmag scan position(SubVI).vi"/>
 </Library>

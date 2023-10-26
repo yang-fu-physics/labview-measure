@@ -20,8 +20,8 @@
 			<Item Name="Instrument Type.ctl" Type="VI" URL="../SubVI/ctl/Instrument Type.ctl"/>
 			<Item Name="Instrument.ctl" Type="VI" URL="../SubVI/ctl/Instrument.ctl"/>
 			<Item Name="limit.ctl" Type="VI" URL="../SubVI/ctl/limit.ctl"/>
+			<Item Name="xinxiliutest.ctl" Type="VI" URL="../SubVI/ctl/xinxiliutest.ctl"/>
 			<Item Name="warning.ctl" Type="VI" URL="../SubVI/ctl/warning.ctl"/>
-			<Item Name="控件 1.ctl" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/控件 1.ctl"/>
 		</Item>
 		<Item Name="ex-vi" Type="Folder">
 			<Item Name="6221+2182.vi" Type="VI" URL="../ex-vi/6221+2182.vi"/>
@@ -317,14 +317,8 @@
 				<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
 				<Item Name="GetPPMSItem.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/GetPPMSItem.vi"/>
 				<Item Name="SendPPMSCommand.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/PPMS/SendPPMSCommand.vi"/>
-				<Item Name="GetChamber.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/GetChamber.vi"/>
-				<Item Name="GetField.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/GetField.vi"/>
 				<Item Name="GetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetPosition.vi"/>
 				<Item Name="GetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetTemperature.vi"/>
-				<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/OpenQDInstrument.vi"/>
-				<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/QDInstrumentExceptionHandler.vi"/>
-				<Item Name="SetChamber.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/SetChamber.vi"/>
-				<Item Name="SetField.vi" Type="VI" URL="../lib/旋转杆/多场程序-1.3.llb/SetField.vi"/>
 				<Item Name="SetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetPosition.vi"/>
 				<Item Name="SetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetTemperature.vi"/>
 			</Item>
@@ -481,13 +475,12 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
+			<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
+			<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
 			<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/OpenQDInstrument.vi"/>
 			<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/QDInstrumentExceptionHandler.vi"/>
-			<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
-			<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
-			<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
-			<Item Name="控件 1.ctl" Type="VI" URL="../SubVI/ctl/控件 1.ctl"/>
 			<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
+			<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">

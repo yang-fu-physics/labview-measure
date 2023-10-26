@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="scan cmag position (SubVI).vi" Type="VI" URL="../SubVI/scan cmag position (SubVI).vi"/>
 	<Item Name="scan current(SubVI).vi" Type="VI" URL="../SubVI/scan current(SubVI).vi"/>
 	<Item Name="scan position (SubVI).vi" Type="VI" URL="../SubVI/scan position (SubVI).vi"/>
 	<Item Name="scan time(SubVI).vi" Type="VI" URL="../SubVI/scan time(SubVI).vi"/>
