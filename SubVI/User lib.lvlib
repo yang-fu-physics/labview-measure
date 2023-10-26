@@ -11,6 +11,7 @@
 	<Item Name="Get 2182 reading from 6221.vi" Type="VI" URL="../User lib/Get 2182 reading from 6221.vi"/>
 	<Item Name="get poisition.vi" Type="VI" URL="../User lib/get poisition.vi"/>
 	<Item Name="Get Rotate Temp(SubVI).vi" Type="VI" URL="../User lib/Get Rotate Temp(SubVI).vi"/>
+	<Item Name="PZT Set Position-精调-信号灯.vi" Type="VI" URL="../User lib/PZT Set Position-精调-信号灯.vi"/>
 	<Item Name="Query 2400 output.vi" Type="VI" URL="../User lib/Query 2400 output.vi"/>
 	<Item Name="Query 2400 set voltage.vi" Type="VI" URL="../User lib/Query 2400 set voltage.vi"/>
 	<Item Name="Query 2614 Source (Level V).vi" Type="VI" URL="../User lib/Query 2614 Source (Level V).vi"/>

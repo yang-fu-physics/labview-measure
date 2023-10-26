@@ -301,7 +301,6 @@
 					<Item Name="PZT read position_rev.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT read position_rev.vi"/>
 					<Item Name="PZT read steps left.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT read steps left.vi"/>
 					<Item Name="PZT Set Position-不回调.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT Set Position-不回调.vi"/>
-					<Item Name="PZT Set Position-精调.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT Set Position-精调.vi"/>
 					<Item Name="PZT Set Position.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT Set Position.vi"/>
 					<Item Name="PZT steporslide.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT steporslide.vi"/>
 					<Item Name="PZT stop.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT stop.vi"/>
@@ -310,6 +309,7 @@
 					<Item Name="Simple example.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/Simple example.vi"/>
 					<Item Name="串口驱动.zip" Type="Document" URL="../lib/双轴旋转杆/压电旋转控制子VI/串口驱动.zip"/>
 					<Item Name="压电控制器说明书-V3.4.pdf" Type="Document" URL="../lib/双轴旋转杆/压电旋转控制子VI/压电控制器说明书-V3.4.pdf"/>
+					<Item Name="PZT Set Position-精调.vi" Type="VI" URL="../lib/双轴旋转杆/压电旋转控制子VI/PZT Set Position-精调.vi"/>
 				</Item>
 				<Item Name="压电轴注意事项.ppt" Type="Document" URL="../lib/双轴旋转杆/压电轴注意事项.ppt"/>
 			</Item>
@@ -344,7 +344,7 @@
 			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="未命名 1" Type="VI"/>
+		<Item Name="pzt test.vi" Type="VI" URL="../pzt test.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>
