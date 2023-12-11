@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="varPersistentID:{1A1E830F-2AE1-48CE-9ADD-1CE655C6E1A7}" Type="Ref">/我的电脑/SubVI/User lib.lvlib/变量</Property>
 	<Item Name="我的电脑" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>

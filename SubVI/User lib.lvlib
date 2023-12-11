@@ -20,4 +20,13 @@
 	<Item Name="SR830-reserve.vi" Type="VI" URL="../User lib/SR830-reserve.vi"/>
 	<Item Name="SR830-sensitivity.vi" Type="VI" URL="../User lib/SR830-sensitivity.vi"/>
 	<Item Name="SR830_Check Time Constant and output number.vi" Type="VI" URL="../User lib/SR830_Check Time Constant and output number.vi"/>
+	<Item Name="变量" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"E!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>
