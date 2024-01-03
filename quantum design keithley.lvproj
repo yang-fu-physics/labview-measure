@@ -22,6 +22,7 @@
 			<Item Name="limit.ctl" Type="VI" URL="../SubVI/ctl/limit.ctl"/>
 			<Item Name="xinxiliutest.ctl" Type="VI" URL="../SubVI/ctl/xinxiliutest.ctl"/>
 			<Item Name="warning.ctl" Type="VI" URL="../SubVI/ctl/warning.ctl"/>
+			<Item Name="set type.ctl" Type="VI" URL="../SubVI/ctl/set type.ctl"/>
 		</Item>
 		<Item Name="ex-vi" Type="Folder">
 			<Item Name="6221+2182.vi" Type="VI" URL="../ex-vi/6221+2182.vi"/>
@@ -322,6 +323,30 @@
 				<Item Name="SetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetPosition.vi"/>
 				<Item Name="SetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetTemperature.vi"/>
 			</Item>
+			<Item Name="model 750" Type="Folder">
+				<Item Name="2018版电磁铁-旋转.vi" Type="VI" URL="../lib/model 750/2018版电磁铁-旋转.vi"/>
+				<Item Name="Configure Current Rate.vi" Type="VI" URL="../lib/model 750/Configure Current Rate.vi"/>
+				<Item Name="Configure Current.vi" Type="VI" URL="../lib/model 750/Configure Current.vi"/>
+				<Item Name="Configure Field.vi" Type="VI" URL="../lib/model 750/Configure Field.vi"/>
+				<Item Name="Configure Mode.vi" Type="VI" URL="../lib/model 750/Configure Mode.vi"/>
+				<Item Name="Configure Power.vi" Type="VI" URL="../lib/model 750/Configure Power.vi"/>
+				<Item Name="Gauss Meter Zero.vi" Type="VI" URL="../lib/model 750/Gauss Meter Zero.vi"/>
+				<Item Name="JCP系列电源说明书（水冷）V1.2.pdf" Type="Document" URL="../lib/model 750/JCP系列电源说明书（水冷）V1.2.pdf"/>
+				<Item Name="Model 750.aliases" Type="Document" URL="../lib/model 750/Model 750.aliases"/>
+				<Item Name="Model 750.lvlps" Type="Document" URL="../lib/model 750/Model 750.lvlps"/>
+				<Item Name="Model 750.lvproj" Type="Document" URL="../lib/model 750/Model 750.lvproj"/>
+				<Item Name="QDInstrument.dll" Type="Document" URL="../lib/model 750/QDInstrument.dll"/>
+				<Item Name="Quary Current Rate.vi" Type="VI" URL="../lib/model 750/Quary Current Rate.vi"/>
+				<Item Name="Quary Fault.vi" Type="VI" URL="../lib/model 750/Quary Fault.vi"/>
+				<Item Name="Quary ID.vi" Type="VI" URL="../lib/model 750/Quary ID.vi"/>
+				<Item Name="Quary Mode.vi" Type="VI" URL="../lib/model 750/Quary Mode.vi"/>
+				<Item Name="Quary Output Current.vi" Type="VI" URL="../lib/model 750/Quary Output Current.vi"/>
+				<Item Name="Quary Output Field.vi" Type="VI" URL="../lib/model 750/Quary Output Field.vi"/>
+				<Item Name="Quary Output Voltage.vi" Type="VI" URL="../lib/model 750/Quary Output Voltage.vi"/>
+				<Item Name="Query Limit Value.vi" Type="VI" URL="../lib/model 750/Query Limit Value.vi"/>
+				<Item Name="Query Power Status.vi" Type="VI" URL="../lib/model 750/Query Power Status.vi"/>
+				<Item Name="旋转控制器说明.txt" Type="Document" URL="../lib/model 750/旋转控制器说明.txt"/>
+			</Item>
 			<Item Name="Agilent 3352X Series.lvlib" Type="Library" URL="../lib/Agilent 3352X Series/Agilent 3352X Series.lvlib"/>
 			<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../lib/Keithley 24XX/Keithley 24XX.lvlib"/>
 			<Item Name="Keithley 622x.lvlib" Type="Library" URL="../lib/Keithley 622x/Keithley 622x.lvlib"/>
@@ -344,7 +369,6 @@
 			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="pzt test.vi" Type="VI" URL="../pzt test.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>

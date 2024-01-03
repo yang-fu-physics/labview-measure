@@ -16,8 +16,12 @@
 	<Item Name="Query 2400 set voltage.vi" Type="VI" URL="../User lib/Query 2400 set voltage.vi"/>
 	<Item Name="Query 2614 Source (Level V).vi" Type="VI" URL="../User lib/Query 2614 Source (Level V).vi"/>
 	<Item Name="Query SR830 sensitivity.vi" Type="VI" URL="../User lib/Query SR830 sensitivity.vi"/>
+	<Item Name="set all (子VI).vi" Type="VI" URL="../backup/set all (子VI).vi"/>
 	<Item Name="Set SR830 source (SubVI).vi" Type="VI" URL="../User lib/Set SR830 source (SubVI).vi"/>
 	<Item Name="SR830-reserve.vi" Type="VI" URL="../User lib/SR830-reserve.vi"/>
 	<Item Name="SR830-sensitivity.vi" Type="VI" URL="../User lib/SR830-sensitivity.vi"/>
 	<Item Name="SR830_Check Time Constant and output number.vi" Type="VI" URL="../User lib/SR830_Check Time Constant and output number.vi"/>
+	<Item Name="state change get(子VI).vi" Type="VI" URL="../User lib/state change get(子VI).vi"/>
+	<Item Name="type to wait boolean.vi" Type="VI" URL="../User lib/type to wait boolean.vi"/>
+	<Item Name="wait all (子VI).vi" Type="VI" URL="../backup/wait all (子VI).vi"/>
 </Library>
