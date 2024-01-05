@@ -31,4 +31,5 @@
 	<Item Name="add set cmag position(SubVI).vi" Type="VI" URL="../Add Seq/add set cmag position(SubVI).vi"/>
 	<Item Name="add set position(SubVI).vi" Type="VI" URL="../Add Seq/add set position(SubVI).vi"/>
 	<Item Name="add cmag scan position(SubVI).vi" Type="VI" URL="../Add Seq/add cmag scan position(SubVI).vi"/>
+	<Item Name="add lengtou2 set position(SubVI).vi" Type="VI" URL="../Add Seq/add lengtou2 set position(SubVI).vi"/>
 </Library>

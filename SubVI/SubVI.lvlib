@@ -55,6 +55,7 @@
 	<Item Name="string front part.vi" Type="VI" URL="../SubVI/string front part.vi"/>
 	<Item Name="value to value(limit).vi" Type="VI" URL="../SubVI/value to value(limit).vi"/>
 	<Item Name="wait for 335(SubVI).vi" Type="VI" URL="../SubVI/wait for 335(SubVI).vi"/>
+	<Item Name="wait for lengtou2(SubVI).vi" Type="VI" URL="../SubVI/wait for lengtou2(SubVI).vi"/>
 	<Item Name="WaitFor(abort).vi" Type="VI" URL="../SubVI/WaitFor(abort).vi"/>
 	<Item Name="warning display.vi" Type="VI" URL="../SubVI/warning display.vi"/>
 </Library>
