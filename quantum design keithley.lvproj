@@ -281,12 +281,12 @@
 				<Item Name="机械旋转控制子VI" Type="Folder">
 					<Item Name="Rotator Driver" Type="Folder">
 						<Item Name="Break out.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/Rotator Driver.llb/Break out.vi"/>
-						<Item Name="Initialize.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/Rotator Driver.llb/Initialize.vi"/>
 						<Item Name="Read Deg.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/Rotator Driver.llb/Read Deg.vi"/>
 						<Item Name="Return To zero.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/Rotator Driver.llb/Return To zero.vi"/>
 						<Item Name="Set Position.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/Rotator Driver.llb/Set Position.vi"/>
 					</Item>
 					<Item Name="02-旋转样品杆控制上位机顺时针归零.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/02-旋转样品杆控制上位机顺时针归零.vi"/>
+					<Item Name="Initialize.vi" Type="VI" URL="../lib/双轴旋转杆/机械旋转控制子VI/子vi/Initialize.vi"/>
 				</Item>
 				<Item Name="压电旋转控制子VI" Type="Folder">
 					<Item Name="1.Note-PZT-Control.txt" Type="Document" URL="../lib/双轴旋转杆/压电旋转控制子VI/1.Note-PZT-Control.txt"/>
@@ -353,6 +353,7 @@
 			<Item Name="Keithley 2182.lvlib" Type="Library" URL="../lib/Keithley 2182/Keithley 2182.lvlib"/>
 			<Item Name="Keithley 2600 Series.lvlib" Type="Library" URL="../lib/Keithley 2600 Series/Keithley 2600 Series.lvlib"/>
 			<Item Name="Stanford Research 830.lvlib" Type="Library" URL="../lib/Stanford Research 830/Stanford Research 830.lvlib"/>
+			<Item Name="Lake Shore Cryotronics 340.lvlib" Type="Library" URL="../lib/Lake Shore 340/Lake Shore Cryotronics 340.lvlib"/>
 		</Item>
 		<Item Name="SubVI" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -369,7 +370,6 @@
 			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="未命名 1" Type="VI"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>
@@ -506,6 +506,9 @@
 			<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
 			<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
 			<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
+			<Item Name="340 set Temp(SubVI).vi" Type="VI" URL="../SubVI/SubVI/340 set Temp(SubVI).vi"/>
+			<Item Name="335 log(SubVI).vi" Type="VI" URL="../SubVI/SubVI/335 log(SubVI).vi"/>
+			<Item Name="Config Heater Range.vi" Type="VI" URL="../lib/Lake Shore 340/Public/Configure/Config Heater Range.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">

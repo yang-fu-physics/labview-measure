@@ -4,10 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="325 Read and Compressor auto control(SubVI).vi" Type="VI" URL="../SubVI/325 Read and Compressor auto control(SubVI).vi"/>
-	<Item Name="335 log(SubVI).vi" Type="VI" URL="../SubVI/335 log(SubVI).vi"/>
+	<Item Name="325-340 log(SubVI).vi" Type="VI" URL="../SubVI/325-340 log(SubVI).vi"/>
+	<Item Name="325-340 Read and Compressor auto control(SubVI).vi" Type="VI" URL="../SubVI/325-340 Read and Compressor auto control(SubVI).vi"/>
 	<Item Name="335 Read and Compressor auto control(SubVI).vi" Type="VI" URL="../SubVI/335 Read and Compressor auto control(SubVI).vi"/>
+	<Item Name="340 log(SubVI).vi" Type="VI" URL="../SubVI/340 log(SubVI).vi"/>
+	<Item Name="340 Read and Compressor auto control(SubVI).vi" Type="VI" URL="../SubVI/340 Read and Compressor auto control(SubVI).vi"/>
+	<Item Name="Get 325 Main Temp(SubVI).vi" Type="VI" URL="../SubVI/Get 325 Main Temp(SubVI).vi"/>
 	<Item Name="Get 335 Main Temp(SubVI).vi" Type="VI" URL="../SubVI/Get 335 Main Temp(SubVI).vi"/>
+	<Item Name="Get 340 Temp A(SubVI).vi" Type="VI" URL="../SubVI/Get 340 Temp A(SubVI).vi"/>
+	<Item Name="Get 340 Temp B(SubVI).vi" Type="VI" URL="../SubVI/Get 340 Temp B(SubVI).vi"/>
 	<Item Name="Get 2614B value.vi" Type="VI" URL="../SubVI/Get 2614B value.vi"/>
 	<Item Name="Get All Instrument Value(SubVI).vi" Type="VI" URL="../SubVI/Get All Instrument Value(SubVI).vi"/>
 	<Item Name="Get qd Temp (rotate and normal) (SubVI).vi" Type="VI" URL="../SubVI/Get qd Temp (rotate and normal) (SubVI).vi"/>
