@@ -9,5 +9,6 @@
 	<Item Name="scan position (SubVI).vi" Type="VI" URL="../SubVI/scan position (SubVI).vi"/>
 	<Item Name="scan time(SubVI).vi" Type="VI" URL="../SubVI/scan time(SubVI).vi"/>
 	<Item Name="setpoint(SubVI).vi" Type="VI" URL="../SubVI/setpoint(SubVI).vi"/>
+	<Item Name="setpoint_new(SubVI).vi" Type="VI" URL="../SubVI/setpoint_new(SubVI).vi"/>
 	<Item Name="sweep(SubVI).vi" Type="VI" URL="../SubVI/sweep(SubVI).vi"/>
 </Library>
