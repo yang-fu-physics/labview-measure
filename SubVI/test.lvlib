@@ -11,6 +11,7 @@
 	<Item Name="储存测试.vi" Type="VI" URL="../../test/储存测试.vi"/>
 	<Item Name="队列采集速度.vi" Type="VI" URL="../../test/队列采集速度.vi"/>
 	<Item Name="队列测试.vi" Type="VI" URL="../../test/队列测试.vi"/>
+	<Item Name="列表框test.vi" Type="VI" URL="../User lib/列表框test.vi"/>
 	<Item Name="锁死与事件响应测试.vi" Type="VI" URL="../../test/锁死与事件响应测试.vi"/>
 	<Item Name="未命名 1.vi" Type="VI" URL="../../lxy test/未命名 1.vi"/>
 	<Item Name="未命名 2.vi" Type="VI" URL="../../lxy test/未命名 2.vi"/>
