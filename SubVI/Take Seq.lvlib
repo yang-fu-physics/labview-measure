@@ -11,12 +11,10 @@
 	<Item Name="log header (seq) (SubVI).vi" Type="VI" URL="../Take Seq/log header (seq) (SubVI).vi"/>
 	<Item Name="Move to (SubVI).vi" Type="VI" URL="../SubVI/Move to (SubVI).vi"/>
 	<Item Name="Scan Field str (SubVI).vi" Type="VI" URL="../Take Seq/Scan Field str (SubVI).vi"/>
-	<Item Name="Scan Temp str (SubVI).vi" Type="VI" URL="../Take Seq/Scan Temp str (SubVI).vi"/>
 	<Item Name="Scan Time (str) (SubVI).vi" Type="VI" URL="../Take Seq/Scan Time (str) (SubVI).vi"/>
 	<Item Name="Select ch str (SubVI).vi" Type="VI" URL="../Take Seq/Select ch str (SubVI).vi"/>
 	<Item Name="seq scan current(SubVI).vi" Type="VI" URL="../Take Seq/seq scan current(SubVI).vi"/>
 	<Item Name="Set Current (seq) (SubVI).vi" Type="VI" URL="../Take Seq/Set Current (seq) (SubVI).vi"/>
-	<Item Name="Set Data (str) (子VI).vi" Type="VI" URL="../Take Seq/Set Data (str) (子VI).vi"/>
 	<Item Name="Set Mag str (SubVI).vi" Type="VI" URL="../Take Seq/Set Mag str (SubVI).vi"/>
 	<Item Name="Set Temp str (SubVI).vi" Type="VI" URL="../Take Seq/Set Temp str (SubVI).vi"/>
 	<Item Name="Wait For (str) (SubVI).vi" Type="VI" URL="../Take Seq/Wait For (str) (SubVI).vi"/>

@@ -34,6 +34,52 @@
 			<Item Name="Modbas TCP test.vi" Type="VI" URL="../ex-vi/Modbas TCP test.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder">
+			<Item Name="KI4200" Type="Folder">
+				<Item Name="KI 4200  String to StrArray.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200  String to StrArray.vi"/>
+				<Item Name="KI 4200 Channel Definition.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Channel Definition.vi"/>
+				<Item Name="KI 4200 Check 4200 ID.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Check 4200 ID.vi"/>
+				<Item Name="KI 4200 Check Indvidual SMU.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Check Indvidual SMU.vi"/>
+				<Item Name="KI 4200 Check System Status.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Check System Status.vi"/>
+				<Item Name="KI 4200 Choose from List Array.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Choose from List Array.vi"/>
+				<Item Name="KI 4200 Configure Fixed SMU .vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Configure Fixed SMU .vi"/>
+				<Item Name="KI 4200 Configure Individual SMU.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Configure Individual SMU.vi"/>
+				<Item Name="KI 4200 Configure Master Step.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Configure Master Step.vi"/>
+				<Item Name="KI 4200 Configure Master Sweep.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Configure Master Sweep.vi"/>
+				<Item Name="KI 4200 Configure Slave Sweep.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Configure Slave Sweep.vi"/>
+				<Item Name="KI 4200 Configure Test Mode .vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Configure Test Mode .vi"/>
+				<Item Name="KI 4200 Constant Setup.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Constant Setup.vi"/>
+				<Item Name="KI 4200 Current Range Setup.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Current Range Setup.vi"/>
+				<Item Name="KI 4200 Data Output - Graph.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Data Output - Graph.vi"/>
+				<Item Name="KI 4200 Data Output.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Data Output.vi"/>
+				<Item Name="KI 4200 Determine Test Mode .vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Determine Test Mode .vi"/>
+				<Item Name="KI 4200 Gather Data Output.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Gather Data Output.vi"/>
+				<Item Name="KI 4200 Graphics Mode Run.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Graphics Mode Run.vi"/>
+				<Item Name="KI 4200 Graphics Mode Setup.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Graphics Mode Setup.vi"/>
+				<Item Name="KI 4200 Graphics Mode X-axis.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Graphics Mode X-axis.vi"/>
+				<Item Name="KI 4200 Graphics Mode YA-axis.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Graphics Mode YA-axis.vi"/>
+				<Item Name="KI 4200 Graphics Mode YB-axis.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Graphics Mode YB-axis.vi"/>
+				<Item Name="KI 4200 List Mode Configure.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 List Mode Configure.vi"/>
+				<Item Name="KI 4200 List Mode Run.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 List Mode Run.vi"/>
+				<Item Name="KI 4200 List Mode Setup.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 List Mode Setup.vi"/>
+				<Item Name="KI 4200 Name Catch IV.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Name Catch IV.vi"/>
+				<Item Name="KI 4200 Name Clean up.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Name Clean up.vi"/>
+				<Item Name="KI 4200 Name Correct.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Name Correct.vi"/>
+				<Item Name="KI 4200 Receive Message.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Receive Message.vi"/>
+				<Item Name="KI 4200 Request SMU Config.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Request SMU Config.vi"/>
+				<Item Name="KI 4200 Sampling Mode Timing.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Sampling Mode Timing.vi"/>
+				<Item Name="KI 4200 Select Display Mode.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Select Display Mode.vi"/>
+				<Item Name="KI 4200 Send Message.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Send Message.vi"/>
+				<Item Name="KI 4200 Set Integration Time.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Set Integration Time.vi"/>
+				<Item Name="KI 4200 Slave Setup.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Slave Setup.vi"/>
+				<Item Name="KI 4200 Step Setup.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Step Setup.vi"/>
+				<Item Name="KI 4200 Sweep Master Setup.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Sweep Master Setup.vi"/>
+				<Item Name="KI 4200 Sweep Mode Timing.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Sweep Mode Timing.vi"/>
+				<Item Name="KI 4200 Take Measurement.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Take Measurement.vi"/>
+				<Item Name="KI 4200 Update System Status.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Update System Status.vi"/>
+				<Item Name="KI 4200 VI Tree.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 VI Tree.vi"/>
+				<Item Name="KI 4200 Wait for SRQ.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200 Wait for SRQ.vi"/>
+				<Item Name="KI 4200.vi" Type="VI" URL="../lib/KI4200.llb/KI 4200.vi"/>
+			</Item>
 			<Item Name="KE7001" Type="Folder">
 				<Item Name="Error Query Global.vi" Type="VI" URL="../lib/KE7001.LLB/Error Query Global.vi"/>
 				<Item Name="Keith 7001 Arm Lay 1 Config.vi" Type="VI" URL="../lib/KE7001.LLB/Keith 7001 Arm Lay 1 Config.vi"/>
@@ -369,6 +415,10 @@
 			<Item Name="nematic.lvlib" Type="Library" URL="../SubVI/nematic.lvlib"/>
 			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
 		</Item>
+		<Item Name="add 4200 initalize(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add 4200 initalize(SubVI).vi"/>
+		<Item Name="Set Data (str) (子VI).vi" Type="VI" URL="../SubVI/Take Seq/Set Data (str) (子VI).vi"/>
+		<Item Name="measure-4200(SubVI).vi" Type="VI" URL="../SubVI/SubVI/measure-4200(SubVI).vi"/>
+		<Item Name="initalize 4200(SubVI).vi" Type="VI" URL="../SubVI/Initalize/initalize 4200(SubVI).vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
