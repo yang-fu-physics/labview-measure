@@ -39,11 +39,13 @@
 	<Item Name="get str without last.vi" Type="VI" URL="../SubVI/get str without last.vi"/>
 	<Item Name="log save.vi" Type="VI" URL="../SubVI/log save.vi"/>
 	<Item Name="measure(SubVI).vi" Type="VI" URL="../SubVI/measure(SubVI).vi"/>
+	<Item Name="measure-4200(SubVI).vi" Type="VI" URL="../SubVI/measure-4200(SubVI).vi"/>
 	<Item Name="measure-6221-2182-DC(SubVI).vi" Type="VI" URL="../SubVI/measure-6221-2182-DC(SubVI).vi"/>
 	<Item Name="measure-6221-SR830(SubVI).vi" Type="VI" URL="../SubVI/measure-6221-SR830(SubVI).vi"/>
 	<Item Name="Save Data (SubVI).vi" Type="VI" URL="../SubVI/Save Data (SubVI).vi"/>
 	<Item Name="Set ch (SubVI).vi" Type="VI" URL="../SubVI/Set ch (SubVI).vi"/>
 	<Item Name="Set Current (SubVI).vi" Type="VI" URL="../SubVI/Set Current (SubVI).vi"/>
+	<Item Name="Set Data (str) (子VI).vi" Type="VI" URL="../Take Seq/Set Data (str) (子VI).vi"/>
 	<Item Name="set delta level(SubVI).vi" Type="VI" URL="../SubVI/set delta level(SubVI).vi"/>
 	<Item Name="set gating.vi" Type="VI" URL="../SubVI/set gating.vi"/>
 	<Item Name="set limit (子VI).vi" Type="VI" URL="../SubVI/set limit (子VI).vi"/>

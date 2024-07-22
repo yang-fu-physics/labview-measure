@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="add 4200 initalize(SubVI).vi" Type="VI" URL="../Add Seq/add 4200 initalize(SubVI).vi"/>
+	<Item Name="initalize 4200(SubVI).vi" Type="VI" URL="../Initalize/initalize 4200(SubVI).vi"/>
 	<Item Name="initalize 6221-2182-dc(SubVI).vi" Type="VI" URL="../Initalize/initalize 6221-2182-dc(SubVI).vi"/>
 	<Item Name="initalize delta(SubVI).vi" Type="VI" URL="../Initalize/initalize delta(SubVI).vi"/>
 	<Item Name="initalize dual gating(SubVI).vi" Type="VI" URL="../Initalize/initalize dual gating(SubVI).vi"/>

@@ -7,6 +7,7 @@
 	<Item Name="24C get control.vi" Type="VI" URL="../User lib/24C get control.vi"/>
 	<Item Name="24C Get Ramp.vi" Type="VI" URL="../User lib/24C Get Ramp.vi"/>
 	<Item Name="24C get setpoint.vi" Type="VI" URL="../User lib/24C get setpoint.vi"/>
+	<Item Name="Auto Range(SR830).vi" Type="VI" URL="../SubVI/Auto Range(SR830).vi"/>
 	<Item Name="Configure 2400 Output without compliance.vi" Type="VI" URL="../User lib/Configure 2400 Output without compliance.vi"/>
 	<Item Name="get 750 mag stable.vi" Type="VI" URL="../9T cmag/get 750 mag stable.vi"/>
 	<Item Name="Get 2182 reading from 6221.vi" Type="VI" URL="../User lib/Get 2182 reading from 6221.vi"/>

@@ -415,10 +415,6 @@
 			<Item Name="nematic.lvlib" Type="Library" URL="../SubVI/nematic.lvlib"/>
 			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
 		</Item>
-		<Item Name="add 4200 initalize(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add 4200 initalize(SubVI).vi"/>
-		<Item Name="Set Data (str) (子VI).vi" Type="VI" URL="../SubVI/Take Seq/Set Data (str) (子VI).vi"/>
-		<Item Name="measure-4200(SubVI).vi" Type="VI" URL="../SubVI/SubVI/measure-4200(SubVI).vi"/>
-		<Item Name="initalize 4200(SubVI).vi" Type="VI" URL="../SubVI/Initalize/initalize 4200(SubVI).vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
