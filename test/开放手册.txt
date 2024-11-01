@@ -1,0 +1,8 @@
+添加设备需要更改的vi
+除了config自定义控件和前面板、log save，set data，get all Instrument
+还有以下的条件框需要改
+select ch
+set ch
+all set
+all wait
+sweep 开头和结尾
