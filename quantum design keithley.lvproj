@@ -555,6 +555,7 @@
 			<Item Name="340 set Temp(SubVI).vi" Type="VI" URL="../SubVI/SubVI/340 set Temp(SubVI).vi"/>
 			<Item Name="335 log(SubVI).vi" Type="VI" URL="../SubVI/SubVI/335 log(SubVI).vi"/>
 			<Item Name="Config Heater Range.vi" Type="VI" URL="../lib/Lake Shore 340/Public/Configure/Config Heater Range.vi"/>
+			<Item Name="add scan PZT at temp.vi" Type="VI" URL="../SubVI/Add Seq/add scan PZT at temp.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">

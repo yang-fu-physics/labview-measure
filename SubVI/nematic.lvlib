@@ -6,7 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="325 Configure setpoint text.vi" Type="VI" URL="../../nematic/325 Configure setpoint text.vi"/>
 	<Item Name="add PZT initalize(SubVI).vi" Type="VI" URL="../Add Seq/add PZT initalize(SubVI).vi"/>
-	<Item Name="add scan PZT at temp.vi" Type="VI" URL="../Add Seq/add scan PZT at temp.vi"/>
 	<Item Name="add scan PZT V(SubVI).vi" Type="VI" URL="../Add Seq/add scan PZT V(SubVI).vi"/>
 	<Item Name="delta&amp;2400 measure.vi" Type="VI" URL="../../nematic/delta&amp;2400 measure.vi"/>
 	<Item Name="Initalize_33522b&amp;2400&amp;Delta_lxy.vi" Type="VI" URL="../Initalize/Initalize_33522b&amp;2400&amp;Delta_lxy.vi"/>
