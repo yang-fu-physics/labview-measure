@@ -8,4 +8,4 @@ INFO, Sample 1 Length (cm): 0.000000; Width (cm): 0.000000; Thickness (cm): 0.00
 
 [Data]
 Timestamp(s),Temp(K),Temp Status,Field(Oe),Field Status,Chamber Status2
-3781436535.534242,300.000000,TemperatureUnknown,0.000000,MagnetUnknown,ChamberUnknown
+3814515514.491682,300.000000,TemperatureUnknown,0.000000,MagnetUnknown,ChamberUnknown

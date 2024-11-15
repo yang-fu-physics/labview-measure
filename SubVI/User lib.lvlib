@@ -14,6 +14,7 @@
 	<Item Name="get poisition.vi" Type="VI" URL="../User lib/get poisition.vi"/>
 	<Item Name="Get Rotate Temp(SubVI).vi" Type="VI" URL="../User lib/Get Rotate Temp(SubVI).vi"/>
 	<Item Name="how_many_indentation.vi" Type="VI" URL="../User lib/how_many_indentation.vi"/>
+	<Item Name="num_str_remove_zero.vi" Type="VI" URL="../User lib/num_str_remove_zero.vi"/>
 	<Item Name="PZT Set Position-精调-信号灯.vi" Type="VI" URL="../User lib/PZT Set Position-精调-信号灯.vi"/>
 	<Item Name="Query 2400 output.vi" Type="VI" URL="../User lib/Query 2400 output.vi"/>
 	<Item Name="Query 2400 set voltage.vi" Type="VI" URL="../User lib/Query 2400 set voltage.vi"/>
