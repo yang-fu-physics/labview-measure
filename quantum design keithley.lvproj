@@ -368,6 +368,13 @@
 				<Item Name="GetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetTemperature.vi"/>
 				<Item Name="SetPosition.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetPosition.vi"/>
 				<Item Name="SetTemperature.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetTemperature.vi"/>
+				<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
+				<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
+				<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/OpenQDInstrument.vi"/>
+				<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/QDInstrumentExceptionHandler.vi"/>
+				<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
+				<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
+				<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
 			</Item>
 			<Item Name="model 750" Type="Folder">
 				<Item Name="2018版电磁铁-旋转.vi" Type="VI" URL="../lib/model 750/2018版电磁铁-旋转.vi"/>
@@ -400,6 +407,8 @@
 			<Item Name="Keithley 2600 Series.lvlib" Type="Library" URL="../lib/Keithley 2600 Series/Keithley 2600 Series.lvlib"/>
 			<Item Name="Stanford Research 830.lvlib" Type="Library" URL="../lib/Stanford Research 830/Stanford Research 830.lvlib"/>
 			<Item Name="Lake Shore Cryotronics 340.lvlib" Type="Library" URL="../lib/Lake Shore 340/Lake Shore Cryotronics 340.lvlib"/>
+			<Item Name="Agilent E4980.lvlib" Type="Library" URL="../lib/Agilent E4980/Agilent E4980.lvlib"/>
+			<Item Name="RP100.lvlib" Type="Library" URL="../lib/RP100/RP100.lvlib"/>
 		</Item>
 		<Item Name="SubVI" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -500,6 +509,7 @@
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
@@ -545,17 +555,11 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="GetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetChamber.vi"/>
-			<Item Name="GetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/GetField.vi"/>
-			<Item Name="OpenQDInstrument.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/OpenQDInstrument.vi"/>
-			<Item Name="QDInstrumentExceptionHandler.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/QDInstrumentExceptionHandler.vi"/>
-			<Item Name="SetChamber.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetChamber.vi"/>
-			<Item Name="SetField.vi" Type="VI" URL="../lib/LabVIEW_PPMS-master/Quantum Design/QDInstrument.llb/SetField.vi"/>
-			<Item Name="QDInstrument.dll" Type="Document" URL="../lib/QDInstrument.dll"/>
-			<Item Name="340 set Temp(SubVI).vi" Type="VI" URL="../SubVI/SubVI/340 set Temp(SubVI).vi"/>
-			<Item Name="335 log(SubVI).vi" Type="VI" URL="../SubVI/SubVI/335 log(SubVI).vi"/>
-			<Item Name="Config Heater Range.vi" Type="VI" URL="../lib/Lake Shore 340/Public/Configure/Config Heater Range.vi"/>
-			<Item Name="add scan PZT at temp.vi" Type="VI" URL="../SubVI/Add Seq/add scan PZT at temp.vi"/>
+			<Item Name="Control 1.ctl" Type="VI" URL="/jigui/Desktop/labview-measure-master240417/labview-measure-master-230926/configs/Control 1.ctl"/>
+			<Item Name="CS_V_LOOP.vi" Type="VI" URL="/jigui/Desktop/labview-measure-master240417/labview-measure-master-230926/SubVI/nematic/CS_V_LOOP.vi"/>
+			<Item Name="输入电压dc_1.vi" Type="VI" URL="../SubVI/nematic/输入电压dc_1.vi"/>
+			<Item Name="add scan PZT V(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add scan PZT V(SubVI).vi"/>
+			<Item Name="get v list.vi" Type="VI" URL="../SubVI/nematic/get v list.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">
