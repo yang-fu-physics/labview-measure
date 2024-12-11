@@ -6,12 +6,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="add scan PZT V(SubVI).vi" Type="VI" URL="../../Add Seq/add scan PZT V(SubVI).vi"/>
 	<Item Name="add scan RP100 voltage.vi" Type="VI" URL="../../StrainCell/add scan RP100 voltage.vi"/>
 	<Item Name="add set RP100 voltage.vi" Type="VI" URL="../../StrainCell/add set RP100 voltage.vi"/>
 	<Item Name="add StrainCell initialize.vi" Type="VI" URL="../../StrainCell/add StrainCell initialize.vi"/>
 	<Item Name="E4980 measure.vi" Type="VI" URL="../../StrainCell/E4980 measure.vi"/>
+	<Item Name="get v list.vi" Type="VI" URL="../get v list.vi"/>
 	<Item Name="initialize StrainCell.vi" Type="VI" URL="../../StrainCell/initialize StrainCell.vi"/>
-	<Item Name="scan RP100 voltage.vi" Type="VI" URL="../../StrainCell/scan RP100 voltage.vi"/>
+	<Item Name="scan harm(SubVI).vi" Type="VI" URL="../../../ex-vi/scan harm(SubVI).vi"/>
 	<Item Name="set RP100 voltage.vi" Type="VI" URL="../../StrainCell/set RP100 voltage.vi"/>
 	<Item Name="System judgment voltage.vi" Type="VI" URL="../System judgment voltage.vi"/>
+	<Item Name="输入电压dc_1.vi" Type="VI" URL="../输入电压dc_1.vi"/>
 </Library>

@@ -33,4 +33,5 @@
 	<Item Name="add cmag scan position(SubVI).vi" Type="VI" URL="../Add Seq/add cmag scan position(SubVI).vi"/>
 	<Item Name="add lengtou2 set position(SubVI).vi" Type="VI" URL="../Add Seq/add lengtou2 set position(SubVI).vi"/>
 	<Item Name="add measure(SubVI).vi" Type="VI" URL="../Add Seq/add measure(SubVI).vi"/>
+	<Item Name="add scan harm(SubVI).vi" Type="VI" URL="../Add Seq/add scan harm(SubVI).vi"/>
 </Library>
