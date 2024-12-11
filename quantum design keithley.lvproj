@@ -425,6 +425,7 @@
 			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="scan harm.vi" Type="VI" URL="../ex-vi/scan harm.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>
@@ -490,6 +491,7 @@
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -560,6 +562,10 @@
 			<Item Name="输入电压dc_1.vi" Type="VI" URL="../SubVI/nematic/输入电压dc_1.vi"/>
 			<Item Name="add scan PZT V(SubVI).vi" Type="VI" URL="../SubVI/Add Seq/add scan PZT V(SubVI).vi"/>
 			<Item Name="get v list.vi" Type="VI" URL="../SubVI/nematic/get v list.vi"/>
+			<Item Name="config.ctl" Type="VI" URL="../SubVI/config.ctl"/>
+			<Item Name="Instrument.ctl" Type="VI" URL="../SubVI/Instrument.ctl"/>
+			<Item Name="335 state.ctl" Type="VI" URL="../SubVI/335 state.ctl"/>
+			<Item Name="scan harm(SubVI).vi" Type="VI" URL="../ex-vi/scan harm(SubVI).vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">
