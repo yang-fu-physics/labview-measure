@@ -32,6 +32,7 @@
 			<Item Name="delta 0.1.vi" Type="VI" URL="../ex-vi/delta 0.1.vi"/>
 			<Item Name="Keithley 6517 Relative Measurement.vi" Type="VI" URL="../lib/Keithley 6517/Examples/Keithley 6517 Relative Measurement.vi"/>
 			<Item Name="Modbas TCP test.vi" Type="VI" URL="../ex-vi/Modbas TCP test.vi"/>
+			<Item Name="scan harm.vi" Type="VI" URL="../ex-vi/scan harm.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder">
 			<Item Name="KI4200" Type="Folder">
@@ -1355,7 +1356,6 @@
 			<Item Name="Keithley 6517.lvlib" Type="Library" URL="../lib/Keithley 6517/Keithley 6517.lvlib"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="scan harm.vi" Type="VI" URL="../ex-vi/scan harm.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">2</Property>
