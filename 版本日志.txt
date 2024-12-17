@@ -1,0 +1,656 @@
+版本: 5f899f8f10633a6bc1d2fa241ee537eabcd3c75b
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/7/6 21:12:49
+信息:
+initalize dual gating(SubVI).vi修复电流range一直在100mA导致的采集数据中的电流为0.几uA
+
+
+版本: ea0e0d0a48d4cbc7b4236bd4fc2f5bfd46afadd6
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/7/6 21:10:05
+信息:
+修改325loop输出改为335loop1输出为high
+
+
+版本: 54fbe342f96ccf816058fdaa796d9bbca4eb71e8
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/7/6 18:17:33
+信息:
+吕星雨：冷头修改完成，增加325
+
+
+版本: 3fcdd1147d958a8f2e3d718895ce3bf0edad51ae
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/6/12 18:08:04
+信息:
+修正add scan gating的输入范围，335写入温度改回原来程序。
+
+
+版本: 4186a007fa238e1cf30ba95cca85e118ad20cecd
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/5/18 14:50:21
+信息:
+Add Seq/add select channel(SubVI).vi 修改生成语句的电流范围。
+
+
+版本: fac5bc8547d81867b3753c50214b9641057bbcfd
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/5/15 15:21:01
+信息:
+修改9T cmag温度范围为1.6-325.取消dc初始化reset，修正delta初始化limit的bug
+set 24C temp(SubVI).vi 修改最底层温度限制。
+Initalize/initalize 6221-2182-dc(SubVI).vi 修改初始化运行逻辑，预防文件读取错误。取消初始化reset。
+Initalize/initalize delta(SubVI).vi 修正初始化limit的bug
+main.vi 修改9Tcmag用户层温度限制。
+
+版本: ae36c4d2ff8a8a96d5e4c292bd74e8c63e9d41a7
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/5/12 19:31:48
+信息:
+完成栅压测试
+add scan gating(SubVI).vi 修改数值范围
+add set gating(SubVI).vi 修改ch的bug
+Get Gating Data.vi 修正读数错误的bug，原因在于Read Measurements函数不止要选通道，而且字符输入也要改。
+set gating.vi 修正bug：区分升降
+
+版本: b5e6f0e44b6cbf78eca1b1309077a074cd8f1c1c
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/5/11 22:16:56
+信息:
+栅压调整完毕，增加2614双栅。增加栅压速率选项，
+Add Seq/add dual gating initalize(SubVI).vi删除通道布尔值，双通道都初始化。
+Add Seq/add gating initalize(SubVI).vi 删除2400visa
+Add Seq/add set gating(SubVI).vi 兼容2614，2400，增加速率
+Initalize/initalize dual gating(SubVI).vi 删除通道布尔值，双通道都初始化。
+Initalize/initalize gating(SubVI).vi 删除2400visa，调用config.ctl
+Delta measure (SubVI).vi 合并2614和2400.
+measure-6221-2182-DC(SubVI).vi 合并2614和2400.
+measure-6221-SR830(SubVI).vi 合并2614和2400.
+set gating.vi兼容2614，2400，增加速率
+setpoint(SubVI).vi 增加栅压部分
+Initalize (seq）(SubVI).vi 增加和修正栅压部分
+Set Data (str) (子VI).vi 调整栅压数据抬头，2400和2614分离
+。
+增加：
+Gating type.ctl
+Add Seq/add scan gating(SubVI).vi
+Get Gating Data.vi
+Query 2614 output state.vi(未完成）
+Query 2614 Source(Level V)
+
+修改Quey为Query
+
+版本: 24d995a243a5163246fa4e1d65e92b71abf02f77
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/5/8 21:36:39
+信息:
+修正错误
+
+
+版本: 7da7714fce3f66cd9c63b3b66dbb4034cf2326c9
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/5/8 21:23:42
+信息:
+DC和扫电流细节修改
+measure-6221-2182-DC(SubVI).vi单通道不需要等待0.5s
+scan current(SubVI).vi修改次数为1，为放开做准备
+
+版本: 4062204227ced2f2bd4b37d2f17b1437ab490bcf
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/5/5 18:40:35
+信息:
+PZT合并完成
+
+
+版本: b5a956b88b1cd48cfdbd7474b89347fc1811b8e5
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/5/5 16:52:03
+信息:
+set gating.vi未完成，准备合并程序
+
+
+版本: de5d931d5f45fe101a1600efacb4c996e2025a41
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/4/17 21:13:16
+信息:
+setpoint.vi增加了gating的选项。
+Quey 2400 set voltage.vi 增加了询问设置电压的vi
+set gating.vi修改为可以匹配速率的，未完成。
+
+版本: 0fa7b958c3cac50b10d9b91f43ae0185ff92ffd9
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/3/25 12:17:46
+信息:
+修正了delta测量的问题
+
+
+版本: e5cdd1f4a6604f06d3fc90f489a4919284b87585
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/3/22 21:32:00
+信息:
+KE622x -- Read Trace Buffer.vi修改库本身的问题，即compliance和平均电压解析反了。
+main.vi设置了visa的初始值
+scan current(SubVI).vi添加了在无通道信息时的解析
+
+版本: c6b00703c10fb47dd4ffb7c96d20d49c339feb7a
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/3/2 21:06:19
+信息:
+在delta初始化时加了set voltage limit
+
+
+版本: 23e02d5b554b2a4f18eaa21b84b263ba4fd35f77
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/2/28 8:56:04
+信息:
+修复add gating initalize(SubVI).vi弹出的问题
+
+
+版本: e669e348b15c1cc19c69f77ca486499df1f6964a
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/2/23 20:49:08
+信息:
+修改了add系列在运行时的显示，修改了scan部分使得steps数量无误。
+
+
+版本: 1918862c78b2cc98f2620554adf3b8b5f4196efa
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/2/17 19:48:55
+信息:
+修改了9T cmag的显示问题
+
+
+版本: beb16bda901d103340a7abbdbb2de121c04fac8e
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/2/17 19:43:52
+信息:
+整理了一下文件内容
+
+
+版本: df2c2e4b8ce523d60c6f60532b86bf8641318506
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/2/17 16:57:58
+信息:
+修改了SR830的运行逻辑，以0.1-0.9为准，低于0.1则按照值给量程，高于0.9上跳两级。简化了sensitivity的输入。
+
+
+版本: 997598e920c12287d9617eba858e8d3848f912c2
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/2/16 21:49:24
+信息:
+重新调整了SR830的信息流，将动态存储和量程分开，添加了量程询问的函数。
+
+
+版本: a1a4577d8d0fbf53c11e1278feb1c2b9437a0471
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/2/16 18:13:44
+信息:
+添加了2614b支持。修改了delta测量中compliance的获取。
+
+
+版本: 9c1a3553b704efe1dbb4614eb6c5ecc5d5a7766e
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/2/8 20:10:32
+信息:
+修改了初始化文件路径为相对路径，修改了9T mag的文件抬头。
+
+
+版本: 52d747548cf8e8bb72ae815035e539bca28618f4
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/1/31 18:30:02
+信息:
+主要修复重要弹出错误
+Set field (linear and oscillate).vi增加了信号灯的输入与输出。
+set magnet.vi增加了信号灯的锁定。
+setpoint(SubVI).vi,sweep(SubVI).vi引入信号灯的量。
+main.vi也是关于信号量的修改。
+
+版本: e7cb9a372593d9df767ae42fc6f4ea5b4ab553d5
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/1/31 18:09:27
+信息:
+修改了DC模式的错误，已完成一段时间的测试，主要问题有：config需要使用相对路径，设场容易报错，振荡降场会中途中止。
+
+
+版本: 53dd4a164f89fcac60e6e5954da131675147c648
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/1/20 2:32:48
+信息:
+Set Current(SubVi)vi 增加了dc部分
+measure-6221-2182-DC(SubVI).vi 修正了dc测量中几个通道值都会写在一个通道的错误。
+scan current(SubVI).vi 现在可以处理多通道
+Set Data (str) (子VI).vi 修改了dc文件的抬头。
+main.vi修改了gpib地址
+
+版本: 2590ca898d451e7f794e809855dd5c26a5535a2f
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/1/11 10:47:50
+信息:
+删除了涉及6221的gpib地址部分，完全改为main写入。确认dc测量的修改无误。
+
+
+版本: 2364132b4018142b857926a538977cb257c33782
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2023/1/10 21:01:48
+信息:
+在9T mag进行了长时间的测试，并且完成了ppms的简单测试。详细如下
+24C and 4G Read (SubVI).vi 修改了一些场状态的显示，添加了paused和修正了错误
+9T mag temp-field-chamber wait for.vi 添加了中止能力
+Set field (linear and oscillate).vi 修正了设场没有high limit的问题
+Delta measure (SubVI).vi 舍去了第一个点，并且在设置通道之后等待50ms防止出现compliance误判
+Set ch (SubVI).vi添加了随着设备更改gpib的功能
+initalize 6221-2182-dc(SubVI).vi临时修改，gpib不再需要设置，会自动设置并写入，后续会改为main中。
+initalize delta(SubVI).vi gpib不再需要设置，直接从簇拿取。
+log save.vi修正了文件抬头的错误
+measure-6221-2182-DC(SubVI).vi修正了电流为0的错误，仍需要重新确认。
+Select ch str (SubVI).vi 添加了ppms和mpms对后两个通道的忽略
+Set Data (str) (子VI).vi 增加了dc的文件设置
+main.vi 添加了tempD过高的场停止和seq停止，不再中止程序。添加了地址的初始化。振荡的下限改为50
+warning display.vi为9T mag 添加了醒目的显示。
+
+版本: c9d13c1490a2fa63a5fb8e601ce8a2d04675d116
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/30 20:50:58
+信息:
+修改了scan field和scan temp的默认值
+
+
+版本: 6fb28b749c70aca73c88e0b4affd92e1c9a66639
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/30 20:22:57
+信息:
+添加了compliance的警报，以及9Tmag中二级冷头温度过高的程序终止。
+main.vi
+Delta measure (SubVI).vi
+上次还改动了disable的响应，使得自动跳到下一层。
+
+版本: 00de3ba218189d3b69b60de7041ce0f958263a81
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/30 19:18:52
+信息:
+主要是添加了温度和磁场的限制，限制分为用户层和底层：
+
+用户层依靠两个新的子Vi，set limit (子VI).vi value to value(limit).vi来实现，主要修改vi为
+add scan field(SubVI).vi
+add scan temp(SubVI).vi
+add set field(SubVI).vi
+add set temp(SubVI).vi
+main.vi
+
+底层对于ppms和mpms的软件本身就有底层设置，不需要添加底层限制，对于9Tmag，通过
+在设场Set field (linear and oscillate).vi
+和设温set 24C temp(SubVI).vi
+的参数之间增加value to value(limit).vi来实现
+
+版本: 90e6c6e015ded64e4273b1ec55675bccf2fb4474
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/30 17:31:39
+信息:
+修正了中止时，scan field 仍会设置终止场的bug
+
+
+版本: 27e367f386db8d96ceb82854fdce492d80f600fe
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/30 17:25:56
+信息:
+进行了scan field与wait for的测试，修正了其中的问题，修正了scan field中Increase会是0的问题。
+
+
+版本: 353f3d6217e50aa1522d09bbc7492345fcad837c
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/27 21:47:23
+信息:
+主要是对seq语句中的关于9T磁体的一系列语句的实现，
+main.vi
+sweep(SubVI).vi
+setpoint(SubVI).vi
+get 9T mag stable.vi  中的枚举常量和前面的不匹配的问题
+Set Mag str (SubVI).vi 删除了无用的信号输入
+测试字符串分离.vi 实现了新的seq解析方式，已使用于9T磁体的设场seq中
+
+版本: 5a7d1bc332878ca6519d7af195db7cb00ce10ac7
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/27 20:48:03
+信息:
+增加了变场速率的程序，以及设置振荡为独立进程并进行了测试，主要涉及
+main.vi
+Set field (linear and oscillate).vi
+set magnet.vi
+
+版本: 3f8cbc5bfc0768c478cd2841dda54a88c7ac6dcc
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/26 19:17:31
+信息:
+修正了上次导致的bug
+
+
+版本: cdf0cba57e7adb76f4e8a4fee4a6b7798dd35402
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/26 16:56:26
+信息:
+修改了9T mag 磁场的状态获取，主要包含
+24C and 4G Read (SubVI).vi
+9T mag temp-field-chamber wait for.vi
+get 9T mag stable.vi
+9T mag field stauts.ctl
+main.vi
+
+版本: 79049f7ff596543a8ccf8b017b8e76e5d27b213f
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/26 11:46:22
+信息:
+完成了振荡的测试。
+
+
+版本: cf90573180c55ffe4384f2211bcd420c2bf53881
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/8 16:20:46
+信息:
+应该是一些自定义控件的修改
+
+
+版本: 4f6c547d5e9fa14cce568b5f43589323c9eaa165
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/12/5 20:40:24
+信息:
+修改了一些830初始化，未完成
+
+
+版本: cd56157fb5246c93972b758e60de07ab5e6f10fc
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/19 13:49:18
+信息:
+Initalize SR830(SubVI).vi修改了6221初始化的phase maker默认参数
+setpoint(SubVI).vi sweep(SubVI).vi 修正了采集点数比实际多一个造成的最后判定温度永远达不到的问题。
+动态存储研究.vi 添加了锁相示例
+
+版本: 5f1588fb062bf9795fba684a288e5479de536a68
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/18 17:20:39
+信息:
+sweep(SubVI).vi通过获取温度引用替代获取温度，使得状态更新速度加快。
+进一步整理了SubVI
+
+版本: 0c63915f15827e6411316dba7cf2016218450067
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/17 16:54:20
+信息:
+main.vi修正了下拉列表改枚举造成的问题
+
+
+版本: a1bc07c083f7e9a22b986cb38d621f6ced63f3a9
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/17 16:47:17
+信息:
+修正了大批添加seq的函数的对上次结果的保留。
+
+
+版本: 983e1e95eaff5b415d297f0f3c80e7c202585e8c
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/17 15:25:48
+信息:
+添加了9Twait for 的abort弹出
+
+
+版本: 9579462c90a548735dfe693b789b51b6db27e2e6
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/15 19:05:03
+信息:
+setpoint(SubVI).vi,sweep(SubVI).vi,scan time(SubVI).vi修正了因为通道信息为空，导致的循环跳过的问题。
+
+
+版本: 6ed3c3061ffc24e8ccf41e7a0113a4ede8929ed7
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/14 18:07:41
+信息:
+添加了DC测量，添加了33522b库，删除了config中一些多余的，将initalize和Instrument Type从字符串和下拉列表改为枚举。
+
+
+版本: b419d065d05356da8db5b9c38000fb710b734a2d
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/3 20:17:56
+信息:
+修正了set temp没有control的问题
+
+
+版本: 33175bfec538c57120671d55f5203bfc15b40d08
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/3 16:45:33
+信息:
+进行了四通道的测试，修正了一系列的问题
+show figure (SubVI).vi适应了四通道
+set delta level(SubVI).vi增加了arm等待的时间，现在是5000ms
+
+版本: ffd70563b4f3e9d1b394515676e7444945eb8ef2
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/3 14:26:35
+信息:
+Add Seq/add select channel(SubVI).vi修改为四通道
+Select ch str (SubVI).vi修改为四通道
+Set ch (SubVI).vi添加了修改通道的子函数
+Delta measure (SubVI).vi修改为多通道处理
+sweep(SubVI).vi适应修改后的 Delta measure (SubVI).vi
+setpoint(SubVI).vi适应修改后的 Delta measure (SubVI).vi
+scan time (SubVI).vi适应修改后的 Delta measure (SubVI).vi
+Set Data (str) (子VI).vi适应修改后的 Delta measure (SubVI).vi
+6221+2182.vi拷贝完成
+
+版本: 42b5fddd23026d837993184164dbcafd8970e04a
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/1 19:48:53
+信息:
+修正了setpoint中wait for 使用的是335的问题
+
+
+版本: 8fb7c79e49d6c392b42e23873d93ba779cab4c3d
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/11/1 19:43:42
+信息:
+6221+2182.vi修改为完成版本
+修正 scan harm(SubVI).vi的版本
+
+版本: 15552a971e70ddac6939d3c315c5d2e8afde4125
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/10/27 15:18:32
+信息:
+修正了队列改自定义控件导致的一系列问题
+auto sensitivity(SubVI).vi修正了量程没有移位寄存
+setpoint(SubVI).vi修正了config没有移位寄存
+sweep(SubVI).vi修正了config没有移位寄存，修正了生成下一个点温度的错误。
+main.vi将config中的数据文件从常量改为引用
+
+版本: 60bfd44c763e800d7ce1da0a1adf6679fec61bfc
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/10/24 19:57:41
+信息:
+log save.vi中9T mag的output到三位。
+
+
+版本: 13662c38dca629e3865f5106baeeafbead08997f
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/10/24 19:53:39
+信息:
+添加了24Ccontrol的选择
+暂时中断了9Tmag中磁场的获取。
+更改了输出功率的有效位数。
+
+版本: d4db1289e48276f1289de187aae5aec20b64f8f2
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/10/24 17:21:51
+信息:
+删掉了Delta stauts的部分
+修改了所有子vi的图像。
+
+版本: a01dd55f5acdae5a5132600f75a6abfa5712d644
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/10/24 11:26:40
+信息:
+更改了大量底层，将config从簇的队列改为了簇本身。
+
+
+版本: 2d4b3d7bb78a17c5f06e2157c59a52a32e666421
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/10/23 1:15:09
+信息:
+删除了setpoint中生成矩阵的部分，修正了上次更新sweep中的错误
+
+
+版本: 94d7c520051e1ee636937dac160010f0012d362d
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/10/23 1:10:55
+信息:
+修正了文件seq重新读取的问题
+删掉了sweep中生成矩阵
+修改了setpoint上限为70001
+
+版本: 9329c25250164eb4cdb27f050533ceeb15025644
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/10/22 12:01:21
+信息:
+修正了selct ch的bug，增加了delta状态的写入
+修正了之前delta measure的错误
+修改了add delta initalize的VISA默认值
+修正了显示图像的bug
+修正了9 mag 温度状态更新太慢导致的一系列问题，并创建了一个新的函数。
+
+版本: c15d5339310b63e718e49bcb330f3894bceb0e5d
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/10/21 22:59:30
+信息:
+修正了select ch之后重复触发delta的问题
+修正了图像显示的问题。
+
+版本: 6af072d142e863017e93a992af2bd78bccbc56c2
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/10/21 21:55:38
+信息:
+添加了sweep等待加热的超时
+
+
+版本: f0a0f9095bd4d7b3121a9344c720140867e7fc0f
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/10/17 20:26:01
+信息:
+添加了对9T磁体的处理，已通过温度的测试。磁场需要后续修改
+
+
+版本: 8ed931d01bc0b60e330c5bc4c24a1735f11c446e
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/9/22 16:42:45
+信息:
+增加了2400状态获取的函数
+修改了2400初始化的条件，加了输出状态的判断。
+修正了储存文件的bug
+
+版本: 17ed20d98202aaef230c0e1774746692e6c99c84
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/9/20 16:37:18
+信息:
+在335完成了测试，修正了一些bug，优化了压缩机启动的问题
+添加了控温部分的功率切换（未启用）
+
+版本: e18183272270cb30cabd48aaa9b082c396107341
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/9/17 18:26:53
+信息:
+对文件进行了调整
+
+
+版本: 016983f6357c9079923138126496f1073ad56ddc
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/9/17 17:29:20
+信息:
+重新添加了 auto sensitivity，并设置为多重运行
+修改了add gating中缺少空格问题，添加了set gating 语句的读取。
+
+版本: 611b88d96ec8e27012434ffd5a94aa3f94977e58
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/9/16 21:43:16
+信息:
+修正了一些bug，完成了335+6221+gating测试，335+sr830+gating的测试
+比如gating的多次，配置文件的读取等bug。
+未完成：sweep的修正，sr830的量程修改
+
+版本: 98fa3e3bb7f0fb7c0809614adf7b6c249dd54a83
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/9/16 17:16:49
+信息:
+完成了2400的加入，包括mearsure，初始化，获取值，设置栅压。
+修正了数据文件设置中335和其他的区别
+缺少sweep流程的简化
+
+版本: 7c60e1f06cd6fdbd9c83684be1826eabe257556b
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/9/15 19:38:26
+信息:
+未完成：2400的加入，sweep流程的简化
+
+
+版本: f28a975b016f5ea14cd0b340dab01e747653bca1
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/9/15 19:28:12
+信息:
+添加了335辅助温度的保存，
+335前面板的响应：包括自动开启和关闭压缩机，手动和自动控制，前面板的显示等等。
+335的waitfor已经seq中waitfor的分离。
+sweep和setpoint中的335
+
+版本: 1634e45c5fd06c12ee967278f7151a840553b28d
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/9/14 21:22:52
+信息:
+增加了335部分，完成了前面板的分别显示，完成了seq中set temp对于335的相应。磁场位置相关的禁用。
+未完成：测量部份的335辅助温度的保存，335前面板的响应，压缩机的部分。
+
+版本: d8fa556ec22e9fbbf06f430aa2e1e452cd623a87
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/9/13 21:56:29
+信息:
+修改了保存位数的问题，修改了SR830读取配置文件的问题，修改了SR830数据没保存的问题。
+
+
+版本: 371817ba9296fe6216597285373bcd217f368fa0
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/9/13 11:03:23
+信息:
+基本完成了新的measure程序，已测试：单通道下，delta模式的scantime，temp sweep，field sweep。
+修改了诸多细节，比如：sweep前的测试，6221初始化前的输出检测等等。
+
+版本: 122609a9ca95a34407bc4585bfd22239cd62abb0
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/7/18 12:39:44
+信息:
+在项目git中添加了
+config.ctl 自定义控件，目前包含：error，初始化的类型，7001簇（ch信息），6221簇（delta状态，6221地址）。
+delta initalize read(SubVI).vi 用于读取delta模式配置文件的读取。
+setpoint(SubVI).vi 将温度磁场位置的setpoint合并，添加了通道数的判断来确定每次的测量次数。
+sweep(SubVI).vi 将温度磁场位置的sweep合并，添加了通道数的判断来确定每次的测量次数，添加了在扫场开始前的测量。
+一系列的测试文件：自定义控件测试，队列速度测试
+
+修改了
+add delta initalize(SubVI).vi 添加了读取部分，可以读取seq中的配置，包含了tunnelling。
+config_file(SubVI).vi 将各个类型的配置文件分到不同的文件夹
+measure(SubVI).vi 合并原来的通道队列（修改了变化的位置至末尾）和delta状态队列到自定义控件中，修改仪器地址的获取方式（改为从自定义空间中获取），在delta模式中添加了位置数据的记录。合并了delta和delta-tunneling。
+scan time(SubVI).vi 修改仪器地址获取方式
+scan current(SubVI).vi 修改仪器地址获取方式
+main.vi 修改仪器地址获取方式，修改了seq中中止delta模式的条件，合并了delta和delta-tunneling，修正了原本create|open的错误。完成了不同模式的分隔。已可以完成delta和delta-tunneling测量。
+
+还留有的问题：
+添加SR830的模式
+set poisition.vi中会自动等待位置到达，不能完成sweep。
+
+版本: d456d432cd350e4440835611c7dc2f8916cace0c
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/6/8 16:07:29
+信息:
+将信息簇队列改为自定义控件队列，解决了今后的拓展性问题。
+
+
+版本: 841ab282164e6dcc8dd5a66491dc13d1a6f61961
+作者: fuyang0811 <1594567228@qq.com>
+日期: 2022/6/5 22:50:14
+信息:
+整理了文件，修改框架将abort替换成簇
+
+Signed-off-by: fuyang0811 <1594567228@qq.com>
+

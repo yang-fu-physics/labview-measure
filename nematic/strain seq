@@ -1,0 +1,23 @@
+T Initialize PZT model \configs\PZT\20230329204355.ini
+F Initialize Delta model \configs\Delta\20230317191041.ini
+F Initialize keithley6221-SR830 model \configs\keithley6221-SR830\20230314183311.ini
+T Set Datafile open|create D:\DATA\FY\20230314-TaIrTe4-SiO2.dat
+T Select Channel: ch3, 0.0100mA
+T Wait For Delay 0 secs, No Action
+T Set Temperature 300.0K at 10.0K/min, FastSettle
+T Wait For Temperature, Delay 1800 secs, No Action
+T Scan Time 300.0 secs in 300 steps
+T Scan PZT voltage from 0 £¬maximum to  148 , minimum to -48, interval  4
+F Scan Field from 0.0Oe to 10000.0Oe at 10.0Oe/sec, in 2001 steps, Uniform, Sweep, Persistent
+F Wait For Field, Delay 5 secs, No Action
+F Scan Field from 10000.0Oe to -10000.0Oe at 10.0Oe/sec, in 4001 steps, Uniform, Sweep, Persistent
+F Wait For Field, Delay 5 secs, No Action
+F Scan Field from -10000.0Oe to 10000.0Oe at 10.0Oe/sec, in 4001 steps, Uniform, Sweep, Persistent
+F Wait For Field, Delay 5 secs, No Action
+T End Sequence
+F 
+T 
+T 
+T 
+T 
+F 

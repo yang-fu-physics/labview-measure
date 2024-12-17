@@ -10,6 +10,7 @@
 	<Item Name="335 log(SubVI).vi" Type="VI" URL="../SubVI/335 log(SubVI).vi"/>
 	<Item Name="340 set Temp(SubVI).vi" Type="VI" URL="../SubVI/340 set Temp(SubVI).vi"/>
 	<Item Name="Auto Range(SR830).vi" Type="VI" URL="../SubVI/Auto Range(SR830).vi"/>
+	<Item Name="auto Set SR830 SENS (SubVI).vi" Type="VI" URL="../SubVI/auto Set SR830 SENS (SubVI).vi"/>
 	<Item Name="Config Heater Range.vi" Type="VI" URL="../../lib/Lake Shore 340/Public/Configure/Config Heater Range.vi"/>
 	<Item Name="Configure 2400 Output without compliance.vi" Type="VI" URL="../User lib/Configure 2400 Output without compliance.vi"/>
 	<Item Name="get 750 mag stable.vi" Type="VI" URL="../9T cmag/get 750 mag stable.vi"/>
